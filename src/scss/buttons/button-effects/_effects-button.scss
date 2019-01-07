@@ -1,0 +1,45 @@
+@import "../../variables/color-variables";
+@import "../../variables/variables";
+@import "../../mixins/transition-mixin";
+.anim-border {
+    position: relative;
+    border: none;
+    margin-right: .25rem;
+    padding: 0;
+    #{$before},
+    #{$after} {
+        content: '';
+        width: 0;
+        height: 2px;
+        position: absolute;
+        @include transition(all 0.2s linear);
+        background: blue;
+    }
+    .button-text {
+        cursor: pointer;
+        display: inline-block;
+        outline: 0;
+        border: none;
+        vertical-align: baseline;
+        background-color: $grey-light;
+        color: $black-lighter;
+        font-family: Arial, sans-serif;
+        font-size: inherit;
+        line-height: 1;
+        font-style: normal;
+        padding: .7rem 1rem .7rem;
+        text-transform: none;
+        text-shadow: none;
+        text-align: center;
+        text-decoration: none;
+        #{$before},
+        #{$after} {
+            content: '';
+            width: 2px;
+            height: 0;
+            position: absolute;
+            @include transition(all 0.2s linear);
+            background: blue;
+        }
+    }
+}

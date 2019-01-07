@@ -1,0 +1,38 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background-color: #dae1e7;
+  color: #454545;
+  font-family: Arial,sans-serif;
+  font-size: inherit;
+  line-height: 1;
+  font-style: normal;
+  min-width: 90px;
+  text-align: center;
+  margin-right: .25rem;
+  margin-bottom: .50rem;
+  padding: .7rem 1rem .7rem;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  -moz-transition: background-color 0.5s ease, color 0.5s ease;
+  -o-transition: background-color 0.5s ease, color 0.5s ease;
+  -ms-transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease; }
+
+.button:hover, .button:focus {
+  background: #767676;
+  outline: 0; }
+
+/**Transparent bg Button**/
+.basic {
+  background-color: transparent; }
+
+.basic:hover,
+.basic:active {
+  background-color: transparent; }

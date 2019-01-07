@@ -1,0 +1,70 @@
+.anim-border {
+  position: relative;
+  border: none;
+  margin-right: .25rem;
+  padding: 0; }
+  .anim-border:before, .anim-border:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: blue; }
+  .anim-border .button-text {
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background-color: #dae1e7;
+    color: #454545;
+    font-family: Arial, sans-serif;
+    font-size: inherit;
+    line-height: 1;
+    font-style: normal;
+    padding: .7rem 1rem .7rem;
+    text-transform: none;
+    text-shadow: none;
+    text-align: center;
+    text-decoration: none; }
+    .anim-border .button-text:before, .anim-border .button-text:after {
+      content: '';
+      width: 2px;
+      height: 0;
+      position: absolute;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      background: blue; }
+
+.anim-border.border-forward:hover:before, .anim-border.border-forward:hover:after {
+  width: 100%; }
+
+.anim-border.border-forward:hover .button-text:before, .anim-border.border-forward:hover .button-text:after {
+  height: 100%; }
+
+.anim-border.border-forward:before {
+  top: 0;
+  right: 0;
+  transition-delay: 0.4s; }
+
+.anim-border.border-forward:after {
+  bottom: 0;
+  left: 0;
+  transition-delay: 0s; }
+
+.anim-border.border-forward .button-text:before {
+  top: 0;
+  left: 0;
+  transition-delay: 0.6s; }
+
+.anim-border.border-forward .button-text:after {
+  bottom: 0;
+  right: 0;
+  transition-delay: 0.2s; }

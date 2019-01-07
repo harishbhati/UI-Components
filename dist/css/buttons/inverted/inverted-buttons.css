@@ -1,0 +1,69 @@
+.red.inverted:hover {
+  border: 1px solid #db2828;
+  background-color: #db2828;
+  color: #ffffff; }
+
+.orange.inverted:hover {
+  border: 1px solid #f2711c;
+  background-color: #f2711c;
+  color: #ffffff; }
+
+.yellow.inverted:hover {
+  border: 1px solid #fbbd08;
+  background-color: #fbbd08;
+  color: #ffffff; }
+
+.olive.inverted:hover {
+  border: 1px solid #b5cc18;
+  background-color: #b5cc18;
+  color: #ffffff; }
+
+.green.inverted:hover {
+  border: 1px solid #21ba45;
+  background-color: #21ba45;
+  color: #ffffff; }
+
+.teal.inverted:hover {
+  border: 1px solid #00b5ad;
+  background-color: #00b5ad;
+  color: #ffffff; }
+
+.blue.inverted:hover {
+  border: 1px solid #2185d0;
+  background-color: #2185d0;
+  color: #ffffff; }
+
+.violet.inverted:hover {
+  border: 1px solid #6435c9;
+  background-color: #6435c9;
+  color: #ffffff; }
+
+.purple.inverted:hover {
+  border: 1px solid #a333c8;
+  background-color: #a333c8;
+  color: #ffffff; }
+
+.pink.inverted:hover {
+  border: 1px solid #e03997;
+  background-color: #e03997;
+  color: #ffffff; }
+
+.brown.inverted:hover {
+  border: 1px solid #a5673f;
+  background-color: #a5673f;
+  color: #ffffff; }
+
+.grey.inverted:hover {
+  border: 1px solid #767676;
+  background-color: #767676;
+  color: #ffffff; }
+
+.black.inverted:hover {
+  border: 1px solid #1b1c1d;
+  background-color: #1b1c1d;
+  color: #ffffff; }
+
+.white.inverted:hover {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #353c42; }

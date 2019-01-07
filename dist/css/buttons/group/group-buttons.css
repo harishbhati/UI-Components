@@ -1,0 +1,28 @@
+.inline-buttons {
+  display: inline-flex; }
+  .inline-buttons .button {
+    margin-right: 0; }
+  .inline-buttons .or {
+    position: relative;
+    width: 5px; }
+    .inline-buttons .or:before {
+      content: attr(data-after);
+      font-size: 12px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+.or {
+  color: #1b1c1d; }
+  .or:before {
+    background: #ffffff; }
+
+.vertical-buttons .button {
+  display: block;
+  margin-right: 0; }

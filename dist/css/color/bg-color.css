@@ -1,0 +1,236 @@
+.bg-transparent {
+  background-color: transparent; }
+
+.bg-grey-darkest {
+  background-color: #3d4852; }
+
+.bg-grey-darker {
+  background-color: #606f7b; }
+
+.bg-grey-dark {
+  background-color: #838383; }
+
+.bg-grey {
+  background-color: #767676; }
+
+.bg-grey-light {
+  background-color: #dae1e7; }
+
+.bg-grey-lighter {
+  background-color: #f1f5f8; }
+
+.bg-grey-lightest {
+  background-color: #f8fafc; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.bg-red-darkest {
+  background-color: #3b0d0c; }
+
+.bg-red-darker {
+  background-color: #621b18; }
+
+.bg-red-dark {
+  background-color: #d01919; }
+
+.bg-red {
+  background-color: #db2828; }
+
+.bg-red-light {
+  background-color: #ef5753; }
+
+.bg-red-lighter {
+  background-color: #f9acaa; }
+
+.bg-red-lightest {
+  background-color: #fcebea; }
+
+.bg-orange-darkest {
+  background-color: #462a16; }
+
+.bg-orange-darker {
+  background-color: #613b1f; }
+
+.bg-orange-dark {
+  background-color: #f26202; }
+
+.bg-orange {
+  background-color: #f2711c; }
+
+.bg-orange-light {
+  background-color: #faad63; }
+
+.bg-orange-lighter {
+  background-color: #fcd9b6; }
+
+.bg-orange-lightest {
+  background-color: #fff5eb; }
+
+.bg-yellow-darkest {
+  background-color: #453411; }
+
+.bg-yellow-darker {
+  background-color: #684f1d; }
+
+.bg-yellow-dark {
+  background-color: #eaae00; }
+
+.bg-yellow {
+  background-color: #fbbd08; }
+
+.bg-yellow-light {
+  background-color: #fff382; }
+
+.bg-yellow-lighter {
+  background-color: #fff9c2; }
+
+.bg-yellow-lightest {
+  background-color: #fcfbeb; }
+
+.bg-green-darkest {
+  background-color: #0f2f21; }
+
+.bg-green-darker {
+  background-color: #1a4731; }
+
+.bg-green-dark {
+  background-color: #16ab39; }
+
+.bg-green {
+  background-color: #21ba45; }
+
+.bg-green-light {
+  background-color: #51d88a; }
+
+.bg-green-lighter {
+  background-color: #a2f5bf; }
+
+.bg-green-lightest {
+  background-color: #e3fcec; }
+
+.bg-teal-darkest {
+  background-color: #0d3331; }
+
+.bg-teal-darker {
+  background-color: #20504f; }
+
+.bg-teal-dark {
+  background-color: #009c95; }
+
+.bg-teal {
+  background-color: #00b5ad; }
+
+.bg-teal-light {
+  background-color: #64d5ca; }
+
+.bg-teal-lighter {
+  background-color: #a0f0ed; }
+
+.bg-teal-lightest {
+  background-color: #e8fffe; }
+
+.bg-blue-darkest {
+  background-color: #12283a; }
+
+.bg-blue-darker {
+  background-color: #1c3d5a; }
+
+.bg-blue-dark {
+  background-color: #1678c2; }
+
+.bg-blue {
+  background-color: #2185d0; }
+
+.bg-blue-light {
+  background-color: #6cb2eb; }
+
+.bg-blue-lighter {
+  background-color: #bcdefa; }
+
+.bg-blue-lightest {
+  background-color: #eff8ff; }
+
+.bg-indigo-darkest {
+  background-color: #191e38; }
+
+.bg-indigo-darker {
+  background-color: #2f365f; }
+
+.bg-indigo-dark {
+  background-color: #5661b3; }
+
+.bg-indigo {
+  background-color: #6574cd; }
+
+.bg-indigo-light {
+  background-color: #7886d7; }
+
+.bg-indigo-lighter {
+  background-color: #b2b7ff; }
+
+.bg-indigo-lightest {
+  background-color: #e6e8ff; }
+
+.bg-purple-darkest {
+  background-color: #21183c; }
+
+.bg-purple-darker {
+  background-color: #382b5f; }
+
+.bg-purple-dark {
+  background-color: #9627ba; }
+
+.bg-purple {
+  background-color: #a333c8; }
+
+.bg-purple-light {
+  background-color: #a779e9; }
+
+.bg-purple-lighter {
+  background-color: #d6bbfc; }
+
+.bg-purple-lightest {
+  background-color: #f3ebff; }
+
+.bg-pink-darkest {
+  background-color: #451225; }
+
+.bg-pink-darker {
+  background-color: #6f213f; }
+
+.bg-pink-dark {
+  background-color: #e61a8d; }
+
+.bg-pink {
+  background-color: #e03997; }
+
+.bg-pink-light {
+  background-color: #fa7ea8; }
+
+.bg-pink-lighter {
+  background-color: #ffbbca; }
+
+.bg-pink-lightest {
+  background-color: #ffebef; }
+
+.bg-black-darkest {
+  background-color: #000000; }
+
+.bg-black-darker {
+  background-color: #232323; }
+
+.bg-black-dark {
+  background-color: #27292a; }
+
+.bg-black {
+  background-color: #1b1c1d; }
+
+.bg-black-light {
+  background-color: #353c42; }
+
+.bg-black-lighter {
+  background-color: #454545; }
+
+.bg-black-lightest {
+  background-color: #737373; }

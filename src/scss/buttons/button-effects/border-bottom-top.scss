@@ -1,0 +1,42 @@
+@import "../../variables/color-variables";
+@import "../../variables/variables";
+@import "../../mixins/transition-mixin";
+@import "../button-effects/effects-button";
+.anim-border {
+    &.border-bottom-top {
+        #{$hover} {
+            #{$before},
+            #{$after} {
+                width: 100%;
+            }
+            .button-text {
+                #{$before},
+                #{$after} {
+                    height: 100%;
+                }
+            }
+        }
+        #{$before} {
+            top: 0;
+            right: 0;
+            transition-delay: 0.2s;
+        }
+        #{$after} {
+            bottom: 0;
+            left: 0;
+            transition-delay: 0.2s;
+        }
+        .button-text {
+            #{$before} {
+                top: 0;
+                left: 0;
+                transition-delay: 0s;
+            }
+            #{$after} {
+                bottom: 0;
+                right: 0;
+                transition-delay: 0s;
+            }
+        }
+    }
+}

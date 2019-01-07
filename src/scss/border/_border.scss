@@ -1,0 +1,67 @@
+@import "../variables/color-variables";
+
+/**Border Width**/
+.border-1{
+    border-width:1px;
+}
+.border-2{
+    border-width:2px;
+}
+.border-3{
+    border-width:3px;
+}
+.border-4{
+    border-width:4px;
+}
+.border-5{
+    border-width:5px;
+}
+
+/**Border Styles**/
+.border-solid{
+    border-style:solid;
+}
+.border-dashed{
+    border-style:dashed;
+}
+.border-dotted{
+    border-style:dotted;
+}
+
+/**Border Colors**/
+.border-red{
+    border-color: $red-darkest;
+}
+.border-grey{
+    border-color: $grey-darkest;
+}
+.border-white{
+    border-color: $white;
+}
+.border-orange{
+    border-color: $orange-darkest;
+}
+.border-yellow{
+    border-color: $yellow-darkest;
+}
+.border-green{
+    border-color: $green-darkest;
+}
+.border-teal{
+    border-color: $teal-darkest;
+}
+.border-blue{
+    border-color: $blue-darkest;
+}
+.border-indigo{
+    border-color: $indigo-darkest;
+}
+.border-purple{
+    border-color: $purple-darkest;
+}
+.border-pink{
+    border-color: $pink-darkest;
+}
+.border-black{
+    border-color: $black-darkest;
+}

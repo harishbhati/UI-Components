@@ -1,0 +1,32 @@
+@import "../mixins/transition-mixin";
+
+.transition-1{
+    @include transition(all .1s ease);
+}
+.transition-2{
+    @include transition(all .2s ease);
+}
+.transition-3{
+    @include transition(all .3s ease);
+}
+.transition-4{
+    @include transition(all .4s ease);
+}
+.transition-5{
+    @include transition(all .5s ease);
+}
+.transition-6{
+    @include transition(all .6s ease);
+}
+.transition-7{
+    @include transition(all .7s ease);
+}
+.transition-8{
+    @include transition(all .8s ease);
+}
+.transition-9{
+    @include transition(all .9s ease);
+}
+.transition-10{
+    @include transition(all 1s ease);
+}

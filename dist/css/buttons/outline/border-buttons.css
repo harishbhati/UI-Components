@@ -1,0 +1,55 @@
+.red {
+  border: 1px solid #db2828;
+  color: #db2828; }
+
+.orange {
+  border: 1px solid #f2711c;
+  color: #f2711c; }
+
+.yellow {
+  border: 1px solid #fbbd08;
+  color: #fbbd08; }
+
+.olive {
+  border: 1px solid #b5cc18;
+  color: #b5cc18; }
+
+.green {
+  border: 1px solid #21ba45;
+  color: #21ba45; }
+
+.teal {
+  border: 1px solid #00b5ad;
+  color: #00b5ad; }
+
+.blue {
+  border: 1px solid #2185d0;
+  color: #2185d0; }
+
+.violet {
+  border: 1px solid #6435c9;
+  color: #6435c9; }
+
+.purple {
+  border: 1px solid #a333c8;
+  color: #a333c8; }
+
+.pink {
+  border: 1px solid #e03997;
+  color: #e03997; }
+
+.brown {
+  border: 1px solid #a5673f;
+  color: #a5673f; }
+
+.grey {
+  border: 1px solid #767676;
+  color: #767676; }
+
+.black {
+  border: 1px solid #1b1c1d;
+  color: #1b1c1d; }
+
+.white {
+  border: 1px solid #ffffff;
+  color: #ffffff; }

@@ -1,7 +1,8 @@
 .inline-buttons {
   display: inline-flex; }
   .inline-buttons .button {
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 0; }
   .inline-buttons .or {
     position: relative;
     width: 5px; }
@@ -25,4 +26,5 @@
 
 .vertical-buttons .button {
   display: block;
-  margin-right: 0; }
+  margin-right: 0;
+  margin-bottom: 0; }

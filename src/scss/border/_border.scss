@@ -1,67 +1,42 @@
 @import "../variables/color-variables";
 
 /**Border Width**/
-.border-1{
-    border-width:1px;
-}
-.border-2{
-    border-width:2px;
-}
-.border-3{
-    border-width:3px;
-}
-.border-4{
-    border-width:4px;
-}
-.border-5{
-    border-width:5px;
+@for $w from 1 through 5 {
+    %border-#{$w} {
+        border-width: $w * 1px;
+    }
 }
 
 /**Border Styles**/
-.border-solid{
-    border-style:solid;
-}
-.border-dashed{
-    border-style:dashed;
-}
-.border-dotted{
-    border-style:dotted;
+$border-style-list: solid dashed dotted;
+
+@each $current-border in $border-style-list {
+    %border-#{$current-border} {
+        border-style: #{$current-border};
+    }
 }
 
 /**Border Colors**/
-.border-red{
-    border-color: $red-darkest;
+$border-color-list: (
+    'red': $red,
+    'grey': $grey,
+    'white': $white,
+    'orange': $orange,
+    'yellow': $yellow,
+    'blue': $blue,
+    'indigo': $indigo,
+    'purple': $purple,
+    'pink': $pink,
+    'black': $black
+);
+
+@each $color-name,$color-code in $border-color-list {
+    %border-#{$color-name} {
+        border-color: #{$color-code};
+    }
 }
-.border-grey{
-    border-color: $grey-darkest;
-}
-.border-white{
-    border-color: $white;
-}
-.border-orange{
-    border-color: $orange-darkest;
-}
-.border-yellow{
-    border-color: $yellow-darkest;
-}
-.border-green{
-    border-color: $green-darkest;
-}
-.border-teal{
-    border-color: $teal-darkest;
-}
-.border-blue{
-    border-color: $blue-darkest;
-}
-.border-indigo{
-    border-color: $indigo-darkest;
-}
-.border-purple{
-    border-color: $purple-darkest;
-}
-.border-pink{
-    border-color: $pink-darkest;
-}
-.border-black{
-    border-color: $black-darkest;
-}
+
+// .icon{
+//     @extend %border-orange;
+//     color:$grey-lighterrr;
+// }

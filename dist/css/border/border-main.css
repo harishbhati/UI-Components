@@ -1,3 +1,96 @@
 /**Border Width**/
+.border-1 {
+  border-width: 1px; }
+
+.border-2 {
+  border-width: 2px; }
+
+.border-3 {
+  border-width: 3px; }
+
+.border-4 {
+  border-width: 4px; }
+
+.border-5 {
+  border-width: 5px; }
+
 /**Border Styles**/
+.border-solid {
+  border-style: solid; }
+
+.border-dashed {
+  border-style: dashed; }
+
+.border-dotted {
+  border-style: dotted; }
+
 /**Border Colors**/
+.border-red {
+  border-color: #db2828; }
+
+.border-orange {
+  border-color: #f2711c; }
+
+.border-yellow {
+  border-color: #fbbd08; }
+
+.border-olive {
+  border-color: #b5cc18; }
+
+.border-green {
+  border-color: #21ba45; }
+
+.border-teal {
+  border-color: #00b5ad; }
+
+.border-blue {
+  border-color: #2185d0; }
+
+.border-violet {
+  border-color: #6435c9; }
+
+.border-purple {
+  border-color: #a333c8; }
+
+.border-pink {
+  border-color: #e03997; }
+
+.border-brown {
+  border-color: #a5673f; }
+
+.border-grey {
+  border-color: #767676; }
+
+.border-black {
+  border-color: #1b1c1d; }
+
+.border-white {
+  border-color: #ffffff; }
+
+.border-transparent {
+  border-color: transparent; }
+
+/**Border Radius**/
+.radius-0 {
+  border-radius: 0px; }
+
+.radius-1 {
+  border-radius: 1px; }
+
+.radius-2 {
+  border-radius: 2px; }
+
+.radius-3 {
+  border-radius: 3px; }
+
+.radius-4 {
+  border-radius: 4px; }
+
+.radius-5 {
+  border-radius: 5px; }
+
+.border-rounded {
+  border-radius: 50px; }
+
+.rounded {
+  border-radius: 50%; }

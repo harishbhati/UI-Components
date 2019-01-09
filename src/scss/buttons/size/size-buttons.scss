@@ -1,15 +1,15 @@
-.tiny-btn{
-    font-size: .8rem;
-}
-.small-btn{
-    font-size: 1rem;
-}
-.medium-btn{
-    font-size: 1.2rem;
-}
-.big-btn{
-    font-size: 1.4rem;
-}
-.huge-btn{
-    font-size: 1.6rem;
+
+/**Button Size**/
+$font-class-list: (
+    'tiny': '.8rem', 
+    'small': '1rem', 
+    'medium': '1.2rem', 
+    'big': '1.4rem', 
+    'huge': '1.6rem'
+);
+
+@each $current-name,$current-size in $font-class-list {
+    .#{$current-name}-btn {
+        font-size:#{$current-size} ;
+    }
 }

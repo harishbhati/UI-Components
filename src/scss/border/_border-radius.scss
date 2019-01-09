@@ -1,16 +1,17 @@
 @import "../variables/color-variables";
 @import "../mixins/radius-mixin";
 
+/**Border Radius**/
 @for $r from 0 through 5 {
-    %radius-#{$r} {
+    .radius-#{$r} {
         border-radius: $r * 1px;
     }
 }
 
-%border-rounded {
+.border-rounded {
     border-radius: 50px;
 }
 
-%rounded {
+.rounded {
     border-radius: 50%;
 }

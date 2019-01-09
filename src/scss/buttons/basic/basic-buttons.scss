@@ -1,200 +1,36 @@
 @import "../../variables/color-variables";
 
-/**Basic Buttons*/
-.btn-red{
-    background-color: $red;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $red-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $red;
+
+/**Outline Buttons**/
+$border-color-list: (
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'olive': $olive,
+    'green': $green,
+    'teal': $teal,
+    'blue': $blue,
+    'violet': $violet,
+    'purple': $purple,
+    'pink': $pink,
+    'brown': $brown,
+    'grey': $grey,
+    'black': $black
+);
+
+@each $color-name,$color-code in $border-color-list {
+    .btn-#{$color-name} {
+        background-color: #{$color-code}; 
+        color:$white;
+        &:hover,&:active{
+            background-color: darken($color-code, 8%);
         }
-    }
-}
-.btn-orange{
-    background-color: $orange;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $orange-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $black;
-        &:before {
-            background-color: $orange;
-        }
-    }
-}
-.btn-yellow{
-    background-color: $yellow;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $yellow-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $yellow;
-        }
-    }
-}
-.btn-olive{
-    background-color: $olive;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $olive-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $olive;
-        }
-    }
-}
-.btn-green {
-    background-color: $green;
-    color: $white;
-    &:hover,
-    &:active {
-        background-color: $green-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $green;
-        }
-    }
-}
-.btn-teal{
-    background-color: $teal;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $teal-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $teal;
-        }
-    }
-}
-.btn-blue{
-    background-color: $blue;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $blue-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $blue;
-        }
-    }
-}
-.btn-violet{
-    background-color: $violet;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $violet-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $violet;
-        }
-    }
-}
-.btn-purple{
-    background-color: $purple;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $purple-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $purple;
-        }
-    }
-}
-.btn-pink{
-    background-color: $pink;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $pink-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $pink;
-        }
-    }
-}
-.btn-brown{
-    background-color: $brown;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $brown-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $brown;
-        }
-    }
-}
-.btn-grey{
-    background-color: $grey;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $grey-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $grey;
-        }
-    }
-}
-.btn-black{
-    background-color: $black;  
-    color: $white;
-    &:hover,&:active{
-        background-color: $black-dark;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $black;
-        }
-    }
-}
-.btn-white{
-    background-color: $white;  
-    color: $black;
-    &:hover,&:active{
-        background-color: $white;
-    }
-    &.or {
-        background-color: transparent;
-        color: $white;
-        &:before {
-            background-color: $black;
+        &.or {
+            background-color: transparent;
+            color: $white;
+            &:before {
+                background-color: #{$color-code};
+            }
         }
     }
 }

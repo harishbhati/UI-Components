@@ -1,3 +1,4 @@
+/**Outline Buttons**/
 .red {
   border: 1px solid #db2828;
   color: #db2828; }
@@ -49,7 +50,3 @@
 .black {
   border: 1px solid #1b1c1d;
   color: #1b1c1d; }
-
-.white {
-  border: 1px solid #ffffff;
-  color: #ffffff; }

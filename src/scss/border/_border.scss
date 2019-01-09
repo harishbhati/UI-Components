@@ -2,7 +2,7 @@
 
 /**Border Width**/
 @for $w from 1 through 5 {
-    %border-#{$w} {
+    .border-#{$w} {
         border-width: $w * 1px;
     }
 }
@@ -11,7 +11,7 @@
 $border-style-list: solid dashed dotted;
 
 @each $current-border in $border-style-list {
-    %border-#{$current-border} {
+    .border-#{$current-border} {
         border-style: #{$current-border};
     }
 }
@@ -19,24 +19,24 @@ $border-style-list: solid dashed dotted;
 /**Border Colors**/
 $border-color-list: (
     'red': $red,
-    'grey': $grey,
-    'white': $white,
     'orange': $orange,
     'yellow': $yellow,
+    'olive': $olive,
+    'green': $green,
+    'teal': $teal,
     'blue': $blue,
-    'indigo': $indigo,
+    'violet': $violet,
     'purple': $purple,
     'pink': $pink,
-    'black': $black
+    'brown': $brown,
+    'grey': $grey,
+    'black': $black,
+    'white': $white,
+    'transparent': 'transparent'
 );
 
 @each $color-name,$color-code in $border-color-list {
-    %border-#{$color-name} {
+    .border-#{$color-name} {
         border-color: #{$color-code};
     }
 }
-
-// .icon{
-//     @extend %border-orange;
-//     color:$grey-lighterrr;
-// }

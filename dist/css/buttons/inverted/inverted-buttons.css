@@ -1,3 +1,4 @@
+/**Inverted Buttons**/
 .red.inverted:hover {
   border: 1px solid #db2828;
   background-color: #db2828;
@@ -62,8 +63,3 @@
   border: 1px solid #1b1c1d;
   background-color: #1b1c1d;
   color: #ffffff; }
-
-.white.inverted:hover {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  color: #353c42; }

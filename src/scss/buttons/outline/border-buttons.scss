@@ -1,58 +1,25 @@
 @import "../../variables/color-variables";
 
-.red{
-    border: 1px solid $red;
-    color:$red;
-}
-.orange{
-    border: 1px solid $orange;
-    color:$orange;
-}
-.yellow{
-    border: 1px solid $yellow;
-    color:$yellow;
-}
-.olive{
-    border: 1px solid $olive;
-    color:$olive;
-}
-.green{
-    border: 1px solid $green;
-    color:$green;
-}
-.teal{
-    border: 1px solid $teal;
-    color:$teal;
-}
-.blue{
-    border: 1px solid $blue;
-    color:$blue;
-}
-.violet{
-    border: 1px solid $violet;
-    color:$violet;
-}
-.purple{
-    border: 1px solid $purple;
-    color:$purple;
-}
-.pink{
-    border: 1px solid $pink;
-    color:$pink;
-}
-.brown{
-    border: 1px solid $brown;
-    color:$brown;
-}
-.grey{
-    border: 1px solid $grey;
-    color:$grey;
-}
-.black{
-    border: 1px solid $black;
-    color:$black;
-}
-.white{
-    border: 1px solid $white;
-    color:$white;
+/**Outline Buttons**/
+$border-color-list: (
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'olive': $olive,
+    'green': $green,
+    'teal': $teal,
+    'blue': $blue,
+    'violet': $violet,
+    'purple': $purple,
+    'pink': $pink,
+    'brown': $brown,
+    'grey': $grey,
+    'black': $black
+);
+
+@each $color-name,$color-code in $border-color-list {
+    .#{$color-name} {
+        border: 1px solid #{$color-code};
+        color:#{$color-code};
+    }
 }

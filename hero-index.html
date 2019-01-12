@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <title>WUI - A lightweight and modular front-end framework.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <link href="dist/css/main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
         <link href="dist/css/border/border-main.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/button.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/basic/basic-buttons.css" rel="stylesheet" type="text/css">
@@ -10,16 +12,46 @@
         <link href="dist/css/buttons/inverted/inverted-buttons.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/group/group-buttons.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/size/size-buttons.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/flex/flex.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/color/bg-color.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <h1><a href="#">WebUIKit</a></h1>
-                </div>
-
+        <header class="flex">
+            <h1 class="logo"><a href="#">WebUIKit</a></h1>
+            <div class="right-links">
+                <a href="https://github.com/harishbhati/UI-Components" class="button btn-olive basic border-rounded">DOWNLOAD</a>
             </div>
         </header>
+        <!-- header ends -->
+
+        <section class="fullscreen-hero-banner flex flex-center flex-middle">
+            <div class="banner-content">
+                <span class="rounded heading-circle bg-white flex flex-middle flex-center big-btn">WUI</span>
+                <h2>WebUIKit</h2>
+                <p>A lightweight and modular front-end framework <br>for developing fast and powerful web interfaces.</p>
+                <div class="btn-group">
+                    <a href="" class="button btn-olive border-rounded medium-btn">Get Started</a>
+                    <a href="https://github.com/harishbhati/UI-Components" class="button basic white border-rounded medium-btn">Github</a>
+                </div>
+            </div>
+            <canvas id="particles-js" class="background"></canvas>
+        </section>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="http://www.themesindustry.com/html/webox/js/particles.min.js"></script>
+        <script>
+                jQuery(function ($) {
+                   "use strict";
+                   /* Initializing Particles */
+                         Particles.init({
+                            selector: '#particles-js',
+                            color: '#ffffff',
+                            connectParticles: false,
+                            sizeVariations: 8,
+                            maxParticles: 200,
+                         });
+                });
+        </script>
     </body>
 </html>

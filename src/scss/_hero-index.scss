@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color:#000;
+    letter-spacing: 0.2px;
+}
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    min-height: 60px;
+    z-index: 100;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    .logo {
+        a {
+            color: #fff;
+            font-weight: 300;
+            &:hover {
+                outline: none;
+                text-decoration: none;
+            }
+        }
+    }
+    .right-links {
+        margin-left: auto;
+    }
+}
+.fullscreen-hero-banner {
+    background: #67B26F;
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    width: 100%;
+    text-align:center;
+    padding: 60px 20px 0px;
+    position: relative;
+    z-index: 1;
+    .heading-circle {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 2rem;
+        color: #b5cc18;
+        text-shadow: 1px 1px #000;
+    }
+    h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 1px;
+        margin: 30px 0px;
+    }
+    .button {
+        min-width: 150px;
+    }
+
+}
+//particle js
+#particles-js {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: .3;
+    z-index: -1;
+}

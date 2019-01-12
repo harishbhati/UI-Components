@@ -14,12 +14,17 @@ $border-color-list: (
     'pink': $pink,
     'brown': $brown,
     'grey': $grey,
-    'black': $black
+    'black': $black,
+    'white': $white,
 );
 
 @each $color-name,$color-code in $border-color-list {
     .#{$color-name} {
-        border: 1px solid #{$color-code};
+        border-color: #{$color-code};
         color:#{$color-code};
+        &:hover,&:focus,&:active {
+            color: rgba($color-code, 0.8)
+        }
+
     }
 }

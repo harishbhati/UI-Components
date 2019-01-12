@@ -4,7 +4,7 @@
     cursor: pointer;
     display: inline-block;
     outline: 0;
-    border: none;
+    border: 1px solid $transparent;
     vertical-align: baseline;
     background-color: lighten($grey, 10%);
     color: lighten($black, 10%);
@@ -26,6 +26,7 @@
 .button:hover,.button:focus{
     background: $grey;
     outline: 0;
+    text-decoration: none;
 }
 /**Transparent bg Button**/
 .basic{

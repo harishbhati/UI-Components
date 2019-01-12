@@ -2,7 +2,7 @@
   cursor: pointer;
   display: inline-block;
   outline: 0;
-  border: none;
+  border: 1px solid transparent;
   vertical-align: baseline;
   background-color: #909090;
   color: #343637;
@@ -27,7 +27,8 @@
 
 .button:hover, .button:focus {
   background: #767676;
-  outline: 0; }
+  outline: 0;
+  text-decoration: none; }
 
 /**Transparent bg Button**/
 .basic {

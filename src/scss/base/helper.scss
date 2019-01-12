@@ -1,0 +1,32 @@
+/*Text Alignment*/
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-small{
+    font-size: .8rem;
+}
+.text-hide {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: transparent;
+    text-shadow: none;
+}
+
+/*Block Alignment*/
+.clear{
+   float:left;
+   width:100%; 
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}

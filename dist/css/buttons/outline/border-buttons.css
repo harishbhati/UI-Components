@@ -1,52 +1,84 @@
 /**Outline Buttons**/
 .red {
-  border: 1px solid #db2828;
+  border-color: #db2828;
   color: #db2828; }
+  .red:hover, .red:focus, .red:active {
+    color: rgba(219, 40, 40, 0.8); }
 
 .orange {
-  border: 1px solid #f2711c;
+  border-color: #f2711c;
   color: #f2711c; }
+  .orange:hover, .orange:focus, .orange:active {
+    color: rgba(242, 113, 28, 0.8); }
 
 .yellow {
-  border: 1px solid #fbbd08;
+  border-color: #fbbd08;
   color: #fbbd08; }
+  .yellow:hover, .yellow:focus, .yellow:active {
+    color: rgba(251, 189, 8, 0.8); }
 
 .olive {
-  border: 1px solid #b5cc18;
+  border-color: #b5cc18;
   color: #b5cc18; }
+  .olive:hover, .olive:focus, .olive:active {
+    color: rgba(181, 204, 24, 0.8); }
 
 .green {
-  border: 1px solid #21ba45;
+  border-color: #21ba45;
   color: #21ba45; }
+  .green:hover, .green:focus, .green:active {
+    color: rgba(33, 186, 69, 0.8); }
 
 .teal {
-  border: 1px solid #00b5ad;
+  border-color: #00b5ad;
   color: #00b5ad; }
+  .teal:hover, .teal:focus, .teal:active {
+    color: rgba(0, 181, 173, 0.8); }
 
 .blue {
-  border: 1px solid #2185d0;
+  border-color: #2185d0;
   color: #2185d0; }
+  .blue:hover, .blue:focus, .blue:active {
+    color: rgba(33, 133, 208, 0.8); }
 
 .violet {
-  border: 1px solid #6435c9;
+  border-color: #6435c9;
   color: #6435c9; }
+  .violet:hover, .violet:focus, .violet:active {
+    color: rgba(100, 53, 201, 0.8); }
 
 .purple {
-  border: 1px solid #a333c8;
+  border-color: #a333c8;
   color: #a333c8; }
+  .purple:hover, .purple:focus, .purple:active {
+    color: rgba(163, 51, 200, 0.8); }
 
 .pink {
-  border: 1px solid #e03997;
+  border-color: #e03997;
   color: #e03997; }
+  .pink:hover, .pink:focus, .pink:active {
+    color: rgba(224, 57, 151, 0.8); }
 
 .brown {
-  border: 1px solid #a5673f;
+  border-color: #a5673f;
   color: #a5673f; }
+  .brown:hover, .brown:focus, .brown:active {
+    color: rgba(165, 103, 63, 0.8); }
 
 .grey {
-  border: 1px solid #767676;
+  border-color: #767676;
   color: #767676; }
+  .grey:hover, .grey:focus, .grey:active {
+    color: rgba(118, 118, 118, 0.8); }
 
 .black {
-  border: 1px solid #1b1c1d;
+  border-color: #1b1c1d;
   color: #1b1c1d; }
+  .black:hover, .black:focus, .black:active {
+    color: rgba(27, 28, 29, 0.8); }
+
+.white {
+  border-color: #ffffff;
+  color: #ffffff; }
+  .white:hover, .white:focus, .white:active {
+    color: rgba(255, 255, 255, 0.8); }

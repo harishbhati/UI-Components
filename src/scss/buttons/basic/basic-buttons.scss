@@ -15,15 +15,17 @@ $border-color-list: (
     'pink': $pink,
     'brown': $brown,
     'grey': $grey,
-    'black': $black
+    'black': $black,
+    'white': $white
 );
 
 @each $color-name,$color-code in $border-color-list {
     .btn-#{$color-name} {
         background-color: #{$color-code}; 
         color:$white;
-        &:hover,&:active{
+        &:hover,&:focus,&:active{
             background-color: darken($color-code, 8%);
+            color:rgba($white,0.8);
         }
         &.or {
             background-color: transparent;

@@ -1,65 +1,58 @@
+@import '../mixins/flex-mixin';
 /*Flexbox*/
-.flex{
-    display: flex;
-}
-.flex-inline{
-    display: inline-flex;
+$flex-display-list: flex inline-flex;
+
+@each $flex-name in $flex-display-list{
+    .#{$flex-name}{
+        display: #{$flex-name};
+    }
 }
 
 /*Flexbox Horizontal Alignment*/
-.flex-left{
-    justify-content: flex-start;
-}
-.flex-center{
-    justify-content: center;
-}
-.flex-right{
-    justify-content: flex-end;
-}
-.flex-between{
-    justify-content: space-between;
-}
-.flex-around{
-    justify-content: space-around;
+$flex-content-list: (
+    'left': 'flex-start',
+    'center': 'center',
+    'right': 'flex-end',
+    'between': 'space-between',
+    'around': 'space-around'
+    );
+
+@each $align-name,$justify in $flex-content-list{
+    .flex-#{$align-name}{
+        @include justify-content($justify);
+    }
 }
 
 /*Flexbox Vertical Alignment*/
-.flex-stretch{
-    align-items: stretch;
-}
-.flex-top{
-    align-items: flex-start;
-}
-.flex-middle{
-    align-items: center;
-}
-.flex-bottom{
-    align-items: flex-end;
+$flex-item-list: (
+    'stretch': 'stretch',
+    'top': 'flex-start',
+    'middle': 'center',
+    'bottom': 'flex-end'
+    );
+
+@each $align-name,$align in $flex-item-list{
+    .flex-#{$align-name}{
+        @include align-items($align);
+    }
 }
 
 /*Flexbox Row Breaking*/
-.flex-wrap{
-    flex-wrap: wrap;
-}
-.flex-wrap{
-    flex-wrap: wrap-reverse;
-}
-.flex-nowrap{
-    flex-wrap: nowrap
+$flex-wrap-list: wrap wrap-reverse nowrap;
+
+@each $wrap in $flex-wrap-list{
+    .flex-#{$wrap}{
+        @include flex-wrap($wrap);
+    }
 }
 
 /*Flexbox Row & Column Directions*/
-.flex-row{
-    flex-direction: row;
-}
-.flex-reverse-row{
-    flex-direction: row-reverse;
-}
-.flex-column{
-    flex-direction: column;
-}
-.flex-reverse-column{
-    flex-direction: column-reverse;
+$flex-wrap-list: row row-reverse column column-reverse;
+
+@each $direction in $flex-wrap-list{
+    .flex-#{$direction}{
+        @include flex-direction($direction);
+    }
 }
 
 /*Flexbox Order*/

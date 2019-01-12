@@ -3,6 +3,7 @@
     <head>
         <title>Page Title</title>
         <link href="dist/css/main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
         <link href="dist/css/border/border-main.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/button.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/basic/basic-buttons.css" rel="stylesheet" type="text/css">
@@ -10,17 +11,16 @@
         <link href="dist/css/buttons/inverted/inverted-buttons.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/group/group-buttons.css" rel="stylesheet" type="text/css">
         <link href="dist/css/buttons/size/size-buttons.css" rel="stylesheet" type="text/css">
-        <link href="dist/css/lists/lists.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/flex/flex.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/color/bg-color.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/admin-board/dashboard.css" rel="stylesheet" type="text/css">
         <style>
             body{
                 margin:0;
                 background: #efefef;
                 font: normal 400 14px/1.4 arial,serif;
             }
-            main{
-                padding: 15px;
-            }
-            section{
+            section section{
                 margin-bottom: 30px;
                 background: #d6d6d6;
                 color: rgba(255,255,255,.9);
@@ -34,7 +34,51 @@
     </head>
 
     <body>
-        <main>
+        <main class="flex">
+        <aside class="sidebar">
+                <ul class="pure-menu-list">
+                        <li class="pure-menu-item">
+                            <a href="/start/" class="pure-menu-link">Get Started</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/layouts/" class="pure-menu-link">Layouts</a>
+                        </li>
+                        <li class="pure-menu-item menu-item-divided">
+                            <a href="/base/" class="pure-menu-link">Base</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/grids/" class="pure-menu-link">Grids</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/forms/" class="pure-menu-link">Forms</a>
+                        </li>
+                        <li class="pure-menu-item pure-menu-selected">
+                            <a href="/buttons/" class="pure-menu-link">Buttons</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/tables/" class="pure-menu-link">Tables</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/menus/" class="pure-menu-link">Menus</a>
+                        </li>
+                        <li class="pure-menu-item menu-item-divided">
+                            <a href="/tools/" class="pure-menu-link">Tools</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/customize/" class="pure-menu-link">Customize</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="/extend/" class="pure-menu-link">Extend</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="http://blog.purecss.io/" class="pure-menu-link">Blog</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="https://github.com/pure-css/pure/releases/" class="pure-menu-link">Releases</a>
+                        </li>
+                    </ul>
+        </aside>
+        <section class="content">
         <!--Standard Buttons-->
         <section>
             <h3>Standard Button</h3>
@@ -199,6 +243,7 @@
                 <li class="">Black</li>
             </ul>
         </section>
-    </main>
+    </section>
+</main>
     </body>
 </html>

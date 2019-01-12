@@ -10,11 +10,11 @@ $flex-display-list: flex inline-flex;
 
 /*Flexbox Horizontal Alignment*/
 $flex-content-list: (
-    'left': 'flex-start',
-    'center': 'center',
-    'right': 'flex-end',
-    'between': 'space-between',
-    'around': 'space-around'
+    'left': flex-start,
+    'center': center,
+    'right': flex-end,
+    'between': space-between,
+    'around': space-around
     );
 
 @each $align-name,$justify in $flex-content-list{
@@ -25,10 +25,10 @@ $flex-content-list: (
 
 /*Flexbox Vertical Alignment*/
 $flex-item-list: (
-    'stretch': 'stretch',
-    'top': 'flex-start',
-    'middle': 'center',
-    'bottom': 'flex-end'
+    'stretch': stretch,
+    'top': flex-start,
+    'middle': center,
+    'bottom': flex-end
     );
 
 @each $align-name,$align in $flex-item-list{

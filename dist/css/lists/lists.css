@@ -16,42 +16,46 @@
 
 .diamond-list li {
   position: relative;
-  padding-left: 1.5rem; }
+  padding-left: 2rem;
+  margin-bottom: .5rem; }
   .diamond-list li:before {
     content: '';
-    height: .8em;
-    width: .8em;
-    background: #1b1c1d;
+    height: .6rem;
+    width: .6rem;
+    background: #ffffff;
     display: block;
     position: absolute;
     top: 50%;
     left: 0;
     transform: rotate(45deg) translateY(-50%); }
 
-.circle-list li {
+.checked-list li {
   position: relative;
-  padding-left: 1.5rem; }
-  .circle-list li:before {
-    content: '';
-    height: .8em;
-    width: .8em;
-    border-radius: 50%;
-    background: #1b1c1d;
+  padding-left: 2rem;
+  margin-bottom: .5rem; }
+  .checked-list li:before {
+    content: 'L';
     display: block;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: rotate(45deg) translateY(-50%); }
-  .circle-list li:after {
+    transform: translateY(-50%) scaleX(-1) rotate(-35deg);
+    font-size: 15px;
+    font-weight: 700; }
+
+.arrow-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: .5rem; }
+  .arrow-list li:before {
     content: '';
-    height: .4em;
-    width: .4em;
-    border-radius: 50%;
-    background: #ffffff;
     display: block;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
-    margin-top: -.2em;
-    margin-left: -.2em;
-    transform: rotate(45deg) translateY(-50%); }
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ffffff; }

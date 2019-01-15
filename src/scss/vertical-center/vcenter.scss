@@ -1,0 +1,64 @@
+@import "../mixins/transform-mixin";
+.parent{
+    height: 500px;
+}
+
+.v-center-position{
+    .parent{
+        position: relative;
+    }
+    .children{
+        position: absolute;
+        text-align: center;
+        width:100%;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+    }
+}
+.v-center-table{
+    .parent{
+        display: table;
+        width: 100%;
+    }
+    .children{
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+.v-center-flex{
+    .parent{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+.v-center-height{
+    .parent{
+        height: 400px;
+        line-height: 400px;
+    }
+    .children{
+        text-align: center;
+    }
+}
+.v-center-inline{
+    .parent{
+        height:100%;
+        width:100%;
+        text-align: center;
+        &:before{
+            content: " ";
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        }
+    }
+    .children{
+        max-width: 100%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

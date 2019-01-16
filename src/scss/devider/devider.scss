@@ -1,0 +1,76 @@
+@import "../variables/color-variables";
+.divider {
+    position: relative;
+    border-top: 1px solid rgba(34,36,38,.15);
+    margin: 1rem 0;
+    &.center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &.left{
+        margin-right: auto;
+    }
+    &.right{
+        margin-left: auto;
+    }
+    &.width-25{
+        width: 25%;
+    }
+    &.width-50{
+        width: 50%;
+    }
+    &.width-75{
+        width: 75%;
+    }
+    .devider-text{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        &.circle{
+            background: $grey;
+            border-radius: 50%;
+        }
+    }
+    &.horizontal{
+        border-top: none;
+        text-align: center;
+        .devider-text:before,.devider-text:after{
+            content: '';
+            width: calc(50% - 20px);
+            height: 1px;
+            background: rgba(34,36,38,.15);
+            position: absolute;
+            top:50%;
+        }
+        .devider-text:before{
+            left: 0;
+        }
+        .devider-text:after{
+            right: 0;
+        }
+    }
+    &.vertical{
+        border-top: none;
+        position: relative;
+        text-align: center;
+        width: 2px;
+        margin: 0 30px;
+        background:rgba(34, 36, 38, 0.15);
+        &:before{
+            content: 'OR';
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: $grey;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

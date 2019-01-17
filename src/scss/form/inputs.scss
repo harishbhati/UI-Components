@@ -1,28 +1,33 @@
 @import "../variables/color-variables";
 
-.form-section{
+.form-section {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5rem;
-    background: #fafafa;
+    background: $white;
     border: 1px solid #ebebeb;
-    box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px, rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
 }
+
 .form-title {
-    color: lighten($black, 15%);;
+    color: lighten($black, 15%);
     margin-bottom: 1.5rem;
 }
-.form-group{
+
+.form-group {
+    position: relative;
     margin-bottom: 1.5rem;
 }
-.form-label{
+
+.form-label {
     display: inline-block;
     margin-bottom: 5px;
     color: $grey;
     font-size: .9rem;
 }
-.form-control{
+
+.form-control {
     appearance: none;
     width: 100%;
     height: 40px;
@@ -33,37 +38,122 @@
     background: $white;
     color: $black;
     font-size: 0.9rem;
-    &.textarea{
+    &.textarea {
         height: auto;
     }
 }
-.border{
-    .form-control{
+
+.border {
+    .form-control {
         border-color: $grey;
-        &:focus{
-            border-color: $violet;
+        &:focus {
+            border-color: $blue;
         }
     }
 }
-.border-rounded{
-    .form-control{
+
+.border-rounded {
+    .form-control {
         border-radius: 25px;
         padding: 0 1rem;
     }
 }
-.border-boottom{
-    .form-control{
+
+.border-bottom {
+    .form-control {
         padding: 0;
         background: transparent;
         border: none;
         border-bottom: 1px solid $grey;
     }
 }
-.form-actions{
-    .button{
+
+.form-actions {
+    .button {
         margin-bottom: 0;
-        &:last-child{
+        &:last-child {
             margin-right: 0;
+        }
+    }
+}
+
+.animated {
+    &.border {
+        .form-label {
+            position: absolute;
+            background: $white;
+            text-align: center;
+            padding: 5px;
+            min-width: 100px;
+            top: calc(100% - 35px);
+            left: .5rem;
+            pointer-events: none;
+            opacity: 0.5;
+            margin-bottom: 0;
+            transition: all 0.3s ease;
+        }
+        .textarea-label {
+            top: 30%;
+        }
+        .active {
+            .form-label {
+                top: -15px;
+                opacity: 1;
+                color: $blue;
+            }
+            &.label-fill {
+                .form-label {
+                    background: $blue;
+                    color: $white;
+                    font-size: .8rem;
+                    padding: 2px;
+                    top: -10px;
+                }
+            }
+            .form-control {
+                border-color: $blue;
+            }
+        }
+    }
+    &.border-bottom {
+        .form-group{
+            &:before, &:after {
+                content: '';
+                height: 2px;
+                width: 0;
+                bottom: 0;
+                position: absolute;
+                background: $blue;
+                transition: all 0.2s ease;
+            }
+            &:before{
+                left: 50%;
+            }
+            &:after{
+                right: 50%;
+            }
+            &.active{
+                &:before, &:after {
+                    width:50%;
+                } 
+            }
+        }
+        .form-label {
+            position: absolute;
+            width: 100px;
+            top: calc(100% - 30px);
+            left: 0;
+            pointer-events: none;
+            opacity: 0.5;
+            margin-bottom: 0;
+            transition: all 0.3s ease;
+        }
+        .active {
+            .form-label {
+                top: -15px;
+                opacity: 1;
+                color: $blue;
+            }
         }
     }
 }

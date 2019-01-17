@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1.5rem;
-  background: #fafafa;
+  background: #ffffff;
   border: 1px solid #ebebeb;
   box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px; }
 
@@ -12,6 +12,7 @@
   margin-bottom: 1.5rem; }
 
 .form-group {
+  position: relative;
   margin-bottom: 1.5rem; }
 
 .form-label {
@@ -37,13 +38,13 @@
 .border .form-control {
   border-color: #767676; }
   .border .form-control:focus {
-    border-color: #6435c9; }
+    border-color: #2185d0; }
 
 .border-rounded .form-control {
   border-radius: 25px;
   padding: 0 1rem; }
 
-.border-boottom .form-control {
+.border-bottom .form-control {
   padding: 0;
   background: transparent;
   border: none;
@@ -53,3 +54,67 @@
   margin-bottom: 0; }
   .form-actions .button:last-child {
     margin-right: 0; }
+
+.animated.border .form-label {
+  position: absolute;
+  background: #ffffff;
+  text-align: center;
+  padding: 5px;
+  min-width: 100px;
+  top: calc(100% - 35px);
+  left: .5rem;
+  pointer-events: none;
+  opacity: 0.5;
+  margin-bottom: 0;
+  transition: all 0.3s ease; }
+
+.animated.border .textarea-label {
+  top: 30%; }
+
+.animated.border .active .form-label {
+  top: -15px;
+  opacity: 1;
+  color: #2185d0; }
+
+.animated.border .active.label-fill .form-label {
+  background: #2185d0;
+  color: #ffffff;
+  font-size: .8rem;
+  padding: 2px;
+  top: -10px; }
+
+.animated.border .active .form-control {
+  border-color: #2185d0; }
+
+.animated.border-bottom .form-group:before, .animated.border-bottom .form-group:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #2185d0;
+  transition: all 0.2s ease; }
+
+.animated.border-bottom .form-group:before {
+  left: 50%; }
+
+.animated.border-bottom .form-group:after {
+  right: 50%; }
+
+.animated.border-bottom .form-group.active:before, .animated.border-bottom .form-group.active:after {
+  width: 50%; }
+
+.animated.border-bottom .form-label {
+  position: absolute;
+  width: 100px;
+  top: calc(100% - 30px);
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  margin-bottom: 0;
+  transition: all 0.3s ease; }
+
+.animated.border-bottom .active .form-label {
+  top: -15px;
+  opacity: 1;
+  color: #2185d0; }

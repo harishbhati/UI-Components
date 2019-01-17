@@ -18,8 +18,11 @@
         <link href="dist/css/devider/devider.css" rel="stylesheet" type="text/css">
         <link href="dist/css/form/inputs.css" rel="stylesheet" type="text/css">
         <link href="dist/css/base/helper.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/lists/lists.css" rel="stylesheet" type="text/css">
+        <link href="dist/css/form/checkbox.css" rel="stylesheet" type="text/css">
         <style>
             body{
+                color: #333;
                 margin:0;
                 background: #efefef;
                 font: normal 400 14px/1.4 arial,serif;
@@ -27,7 +30,6 @@
             section section{
                 margin-bottom: 30px;
                 background: #d6d6d6;
-                color: rgba(255,255,255,.9);
                 padding: 25px
             }
             section h3{
@@ -193,7 +195,7 @@
         <!--List Style-->
         <section>
             <h3>Lists Style</h3>
-            <ul class="diamond-list">
+            <ul class="unstyled-list diamond-list">
                 <li class="">Red</li>
                 <li class="">Orange</li>
                 <li class="">Yellow</li>
@@ -212,7 +214,7 @@
         <!--List Style-->
         <section>
             <h3>Lists Style</h3>
-            <ul class="checked-list">
+            <ul class="unstyled-list checked-list">
                 <li class="">Red</li>
                 <li class="">Orange</li>
                 <li class="">Yellow</li>
@@ -231,7 +233,7 @@
         <!--List Style-->
         <section>
             <h3>Lists Style</h3>
-            <ul class="arrow-list">
+            <ul class="unstyled-list arrow-list">
                 <li class="">Red</li>
                 <li class="">Orange</li>
                 <li class="">Yellow</li>
@@ -329,6 +331,56 @@
                     <textarea rows="2" cols="50" class="form-control textarea" value="">
                     </textarea>
                 </div>
+                <div class="form-group inline">
+                    <div class="checkbox-group check">
+                        <input class="styled-checkbox" type="checkbox" name="value1">
+                        <label class="checkbox">Checkbox 1</label>
+                    </div>
+                    <div class="checkbox-group fill">
+                        <input class="styled-checkbox" type="checkbox" name="value2">
+                        <label class="checkbox">Checkbox 2</label>
+                    </div>
+                    
+                    <div class="checkbox-group select">
+                        <input class="styled-checkbox" type="checkbox" name="value2">
+                        <label class="checkbox">Checkbox 3</label>
+                    </div>
+                        
+                    <div class="checkbox-group fill">
+                        <input class="styled-checkbox" type="checkbox" name="value1">
+                        <label class="checkbox">Checkbox 4</label>
+                    </div>
+                        
+                    <div class="checkbox-group fill">
+                        <input class="styled-checkbox" type="checkbox" name="value2">
+                        <label class="checkbox">Checkbox 5</label>
+                    </div>
+                </div>
+                <div class="form-group inline">
+                        <div class="checkbox-group fill">
+                            <input class="styled-checkbox" type="radio" name="value1">
+                            <label class="checkbox">Radio 1</label>
+                        </div>
+                        <div class="checkbox-group fill">
+                            <input class="styled-checkbox" type="radio" name="value1">
+                            <label class="checkbox">Radio 2</label>
+                        </div>
+                        
+                        <div class="checkbox-group fill">
+                            <input class="styled-checkbox" type="radio" name="value1">
+                            <label class="checkbox">Radio 3</label>
+                        </div>
+                            
+                        <div class="checkbox-group fill">
+                            <input class="styled-checkbox" type="radio" name="value1">
+                            <label class="Radio">Checkbox 4</label>
+                        </div>
+                            
+                        <div class="checkbox-group fill">
+                            <input class="styled-checkbox" type="radio" name="value1">
+                            <label class="Radio">Checkbox 5</label>
+                        </div>
+                    </div>
                 <div class="form-actions text-right">
                     <button type="submit" value="Save" class="button basic blue inverted">Save</button>
                     <button type="button" value="Cancel" class="button basic btn-blue">Cancel</button>

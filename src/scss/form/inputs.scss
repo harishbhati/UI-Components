@@ -156,4 +156,58 @@
             }
         }
     }
+    &.tooltip{
+        &.border{
+            .form-title{
+                margin-bottom: 2rem;
+            }
+            .form-group{
+                margin-bottom: 2.5rem;
+            }
+            .form-label {
+                position: absolute;
+                background: $white;
+                text-align: center;
+                padding: 5px;
+                min-width: 100px;
+                top: calc(100% - 35px);
+                left: 5px;
+                pointer-events: none;
+                opacity: 0.5;
+                margin-bottom: 0;
+                transition: all 0.3s ease;
+            }
+            .textarea-label {
+                top: 30%;
+            }
+            .active {
+                .form-label {
+                    left: 0;
+                    top: -33px;
+                    opacity: 1;
+                    text-shadow: 0 1px 0 rgba(19, 74, 70, 0);
+                    background: $blue;
+                    color: $white;
+                    font-size: .8rem;
+                    border-radius: 3px;
+                    &:after{
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        top: 100%;
+                        left: 50%;
+                        margin-left: -3px;
+                        border-left: 3px solid transparent;
+                        border-right: 3px solid transparent;
+                        border-top: 3px solid $blue;
+                        transition: all .3s ease-in-out;
+                    }
+                }
+                .form-control {
+                    border-color: $blue;
+                }
+            }
+        }
+    }
 }

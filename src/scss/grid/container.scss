@@ -20,6 +20,9 @@ $column: 12;
 }
 
 @mixin create-grid-column(){
+    padding-right: ($grid-space / 2);
+    padding-left: ($grid-space / 2);
+    margin-bottom: 1%;
 }
 .container-fluid{
     width: 100%;
@@ -31,8 +34,12 @@ $column: 12;
 }
 
 /*Grid*/
+.grid-row{
+    @include create-grid-row();
+}
 @for $c from 1 through 12{
     .col-#{$c}{
         width: (100%/$c);
+        @include create-grid-column();
     }
 }

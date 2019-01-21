@@ -1,0 +1,57 @@
+@import "../variables/color-variables";
+
+.img-responsive{
+    max-width: 100%;
+    display: block;
+}
+.card {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        margin: 0;
+    }
+    .card-header:not(.image-holder){
+        padding: 10px;
+        .card-title{
+            margin-bottom: 0;
+        }
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .card-footer {
+        flex-basis: 100%;
+        align-self: flex-end;
+        padding: 10px;
+        .button{
+            min-width: 155px;
+            margin-bottom: 0;
+        }
+        &.block{
+            .button{
+                margin-right: 0;
+                margin-bottom: 10px;
+                display: block;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .card-image{
+        flex-basis: 30%;
+    }
+    .discription{
+        flex-basis: 70%;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        .text-holder,.card-action{
+            flex-basis: 100%;
+        }
+        .card-action{
+            align-self: flex-end;
+        }
+    }
+}

@@ -1,4 +1,21 @@
 header {
-    background-color: #b5cc18;
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
     padding: 8px 15px;
+}
+.item {
+    border-bottom: 1px solid rgba(97, 120, 155, 0.2);
+    &.unstyled-list{
+        padding-bottom: 1rem;
+    }
+    .item-header{
+        padding: .9rem 1rem;
+        color: #f2711c;
+        font-weight: 700;
+    }
+    li{
+        padding: .3rem 1rem;
+        a{
+            color: #61789b;
+        }
+    }
 }

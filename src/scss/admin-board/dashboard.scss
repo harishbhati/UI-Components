@@ -1,12 +1,16 @@
 .sidebar{
     position: fixed;
     left: 0;
-    top: 0;
-    height: 100vh;
+    top: 67px;
+    height: calc(100vh - 69px);
     width: 230px;
-    padding: 10px;
+    background: #fff;
+    box-shadow: 1px 0 10px 0 rgba(69, 81, 97, 0.15);
+    overflow: auto;
 }
 .content{
     width: calc(100% - 230px);
     margin-left: 230px;
+    margin-top: 67px;
+    padding: 15px;
 }

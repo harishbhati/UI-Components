@@ -30,3 +30,35 @@
 .pull-right{
     float:right;
 }
+
+/*Size*/
+$font-class-list: (
+    'tiny': '.7rem', 
+    'small': '1rem', 
+    'medium': '1.3rem',
+    'large':  '1.6rem',  
+    'big': '1.9rem', 
+    'huge': '2.2rem',
+    'huge-x': '3rem',
+    'huge-2x': '3.5rem'
+);
+
+@each $current-name,$current-size in $font-class-list {
+    .#{$current-name} {
+        font-size:#{$current-size} ;
+    }
+}
+
+/*Padding*/
+$font-class-list: (
+    'tiny': '.7rem', 
+    'small': '1rem', 
+    'medium': '1.3rem',
+    'large':  '1.6rem'
+);
+
+@each $current-name,$current-spacing in $font-class-list {
+    .#{$current-name}-spacing {
+        padding:#{$current-spacing} ;
+    }
+}

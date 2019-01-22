@@ -12,6 +12,7 @@
         margin: 0;
     }
     .card-header:not(.image-holder){
+        flex-basis: 100%;
         padding: 10px;
         .card-title{
             margin-bottom: 0;
@@ -19,6 +20,7 @@
     }
     .card-body {
         padding: 10px;
+        flex-basis: 100%;
     }
     .card-footer {
         flex-basis: 100%;

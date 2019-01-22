@@ -9,11 +9,13 @@
   .card p {
     margin: 0; }
   .card .card-header:not(.image-holder) {
+    flex-basis: 100%;
     padding: 10px; }
     .card .card-header:not(.image-holder) .card-title {
       margin-bottom: 0; }
   .card .card-body {
-    padding: 10px; }
+    padding: 10px;
+    flex-basis: 100%; }
   .card .card-footer {
     flex-basis: 100%;
     align-self: flex-end;

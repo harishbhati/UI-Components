@@ -70,7 +70,7 @@
                 <h3>Group Horizontal Buttons</h3>
                     <div class="inline-buttons">
                         <button class="button btn-red">Save</button>
-                            <span class="or btn-yellow" data-after="&"></span>
+                            <span class="or btn-yellow" data-after="OR"></span>
                         <button class="button btn-orange">Cancel</button>
                     </div>
                     <div class="inline-buttons">

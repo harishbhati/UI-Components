@@ -10,7 +10,7 @@
                 <h2>WebUIKit</h2>
                 <p>A lightweight and modular front-end framework <br>for developing fast and powerful web interfaces.</p>
                 <div class="btn-group">
-                    <a href="buttons.php" class="button btn-olive border-rounded medium-btn">Get Started</a>
+                    <a href="introduction.php" class="button btn-olive border-rounded medium-btn">Get Started</a>
                     <a href="https://github.com/harishbhati/UI-Components" class="button basic white border-rounded medium-btn">Github</a>
                 </div>
             </div>

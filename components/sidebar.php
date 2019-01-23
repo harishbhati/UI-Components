@@ -21,7 +21,7 @@
             <li><a href="">Color</a></li>
             <li><a href="">Transitions</a></li>
             <li><a href="">Vertical Center</a></li>
-            <li><a href="">Button</a></li>
+            <li><a href="buttons.php">Button</a></li>
             <li><a href="">Border</a></li>
             <li><a href="">Border Radius</a></li>
             <li><a href="">Inputs &amp; Label</a></li>

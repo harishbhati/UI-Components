@@ -26,7 +26,7 @@
             <li><a href="">Border Radius</a></li>
             <li><a href="">Inputs &amp; Label</a></li>
             <li><a href="">Divider</a></li>
-            <li><a href="">Lists</a></li>
+            <li><a href="list.php">Lists</a></li>
             <li><a href="">Images</a></li>
         </ul>
         <ul class="unstyled-list item">

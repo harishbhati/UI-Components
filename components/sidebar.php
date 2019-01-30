@@ -18,7 +18,8 @@
         <ul class="unstyled-list item">
             <li class="item-header">Elements</li>
             <li><a href="">Container</a></li>
-            <li><a href="">Color</a></li>
+            <li><a href="background-color.php">Background Color</a></li>
+            <li><a href="color.php">Color</a></li>
             <li><a href="">Transitions</a></li>
             <li><a href="">Vertical Center</a></li>
             <li><a href="buttons.php">Button</a></li>

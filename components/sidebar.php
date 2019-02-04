@@ -32,7 +32,7 @@
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header">Views</li>
-            <li><a href="">Card</a></li>
+            <li><a href="card.php">Card</a></li>
             <li><a href="">Forms</a></li>
             <li><a href="">Grid</a></li>
             <li><a href="">Header</a></li>

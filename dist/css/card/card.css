@@ -33,7 +33,6 @@
     flex-basis: 30%; }
   .card .discription {
     flex-basis: 70%;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap; }
     .card .discription .text-holder, .card .discription .card-action {

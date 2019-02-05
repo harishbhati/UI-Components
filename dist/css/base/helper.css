@@ -8,9 +8,6 @@
 .text-right {
   text-align: right; }
 
-.text-small {
-  font-size: .8rem; }
-
 .text-hide {
   text-indent: 110%;
   white-space: nowrap;
@@ -51,9 +48,6 @@
 .huge-x {
   font-size: 3rem; }
 
-.huge-2x {
-  font-size: 3.5rem; }
-
 /*Padding*/
 .tiny-spacing {
   padding: .7rem; }
@@ -66,3 +60,42 @@
 
 .large-spacing {
   padding: 1.6rem; }
+
+/*Margin*/
+.m-tiny {
+  margin: .7rem; }
+
+.m-small {
+  margin: 1rem; }
+
+.m-medium {
+  margin: 1.3rem; }
+
+.m-large {
+  margin: 1.6rem; }
+
+/*Width*/
+.w-auto {
+  width: auto; }
+
+.w-25 {
+  width: 25%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-75 {
+  width: 75%; }
+
+.w-100 {
+  width: 100%; }
+
+/*Display*/
+.d-inline {
+  display: inline; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.d-block {
+  display: block; }

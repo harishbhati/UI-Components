@@ -13,7 +13,7 @@
         <ul class="unstyled-list item">
             <li class="item-header">Global CSS</li>
             <li><a href="reset.php">Reset</a></li>
-            <li><a href="">Helpers</a></li>
+            <li><a href="helpers.php">Helpers</a></li>
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header">Elements</li>

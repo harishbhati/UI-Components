@@ -1,15 +1,10 @@
 /*Text Alignment*/
-.text-left{
-    text-align: left;
-}
-.text-center{
-    text-align: center;
-}
-.text-right{
-    text-align: right;
-}
-.text-small{
-    font-size: .8rem;
+$align-item-list: left center right;
+
+@each $current-align in $align-item-list {
+    .text-#{$current-align} {
+        text-align: #{$current-align};
+    }
 }
 .text-hide {
     text-indent: 110%;
@@ -40,7 +35,6 @@ $font-class-list: (
     'big': '1.9rem', 
     'huge': '2.2rem',
     'huge-x': '3rem',
-    'huge-2x': '3.5rem'
 );
 
 @each $current-name,$current-size in $font-class-list {
@@ -60,5 +54,42 @@ $font-class-list: (
 @each $current-name,$current-spacing in $font-class-list {
     .#{$current-name}-spacing {
         padding:#{$current-spacing} ;
+    }
+}
+/*Margin*/
+$font-class-list: (
+    'm-tiny': '.7rem', 
+    'm-small': '1rem', 
+    'm-medium': '1.3rem',
+    'm-large':  '1.6rem'
+);
+
+@each $current-name,$current-spacing in $font-class-list {
+    .#{$current-name} {
+        margin:#{$current-spacing} ;
+    }
+}
+
+/*Width*/
+$item-width-list: (
+    'w-auto': 'auto', 
+    'w-25': '25%', 
+    'w-50': '50%',
+    'w-75':  '75%',
+    'w-100':  '100%'
+);
+
+@each $current-item,$item-width in $item-width-list {
+    .#{$current-item} {
+        width: #{$item-width};
+    }
+}
+
+/*Display*/
+$display-item-list: inline inline-block block;
+
+@each $current-dispaly in $display-item-list {
+    .d-#{$current-dispaly} {
+        display: #{$current-dispaly};
     }
 }

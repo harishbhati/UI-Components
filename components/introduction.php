@@ -9,7 +9,7 @@
             <div class="page-title-block">
                 <h1 class="page-title">Introduction</h1>
             </div>
-                <section class="bg-white-light medium-spacing">
+                <section class="large-spacing">
                     <h3>Overview</h3>
                     <p><strong>A complete solution:</strong> Web UIKit is a complete CSS framework that is production ready out of the box.  There is no need to customize the CSS if you don’t want to because it is head and shoulders
                      above others in terms of the way that it looks.  We think it looks great and hope you do too.</p>
@@ -22,7 +22,7 @@
                      <p>After adding mini.css to your project, remember to also add the following line inside your HTML page's <head> tag to utilize the viewport meta tag:</p>
                      <pre class="markup">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</pre>
                 </section>
-                <section class="bg-grey-light medium-spacing">
+                <section class="bg-white-light medium-spacing">
                     <div class="grid-row">
                         <div class="col-4">
                             <div class="bg-violet text-white text-center large-spacing">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="bg-white-light medium-spacing">
+                <section class="large-spacing">
                     <h3>Structure</h3>
                     <p>Web UIKit includes a directory structure that separates the CSS framework into modules which are included from a global file. 
                         This allows you to pick and choose what you'd like to include into your project or just pull in everything.</p>

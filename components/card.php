@@ -72,7 +72,7 @@
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
                                 <div class="col-4">
-                                    <div class="card border border-olive bg-white-light">
+                                    <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
@@ -86,8 +86,8 @@
                                             </div>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#" class="button basic olive">Button 1</a>
-                                            <a href="#" class="button basic btn-olive">Button 2</a>
+                                            <a href="#" class="button basic orange">Button 1</a>
+                                            <a href="#" class="button basic btn-orange">Button 2</a>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-4&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
                     &lt;img class=&quot;card-img img-responsive&quot; src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
@@ -111,8 +111,8 @@
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;card-footer&quot;&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic olive&quot;&gt;Button 1&lt;/a&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic btn-olive&quot;&gt;Button 2&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic btn-orange&quot;&gt;Button 2&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -127,7 +127,7 @@
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
                                 <div class="col-4">
-                                    <div class="card border border-olive bg-white-light">
+                                    <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
@@ -141,13 +141,13 @@
                                             </div>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#" class="button basic olive">Button 1</a>
-                                            <a href="#" class="button basic btn-olive">Button 2</a>
+                                            <a href="#" class="button basic orange">Button 1</a>
+                                            <a href="#" class="button basic btn-orange">Button 2</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                        <div class="card border border-olive bg-white-light">
+                                        <div class="card border border-orange bg-white-light">
                                             <div class="card-discription">
                                                 <div class="card-header image-holder">
                                                     <img class="card-img img-responsive" 
@@ -161,8 +161,8 @@
                                                 </div>
                                             </div>
                                             <div class="card-footer">
-                                                <a href="#" class="button basic olive">Button 1</a>
-                                                <a href="#" class="button basic btn-olive">Button 2</a>
+                                                <a href="#" class="button basic orange">Button 1</a>
+                                                <a href="#" class="button basic btn-orange">Button 2</a>
                                             </div>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-4&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
                     &lt;img class=&quot;card-img img-responsive&quot; src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
@@ -186,13 +186,13 @@
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;card-footer&quot;&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic olive&quot;&gt;Button 1&lt;/a&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic btn-olive&quot;&gt;Button 2&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic btn-orange&quot;&gt;Button 2&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;col-4&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
                     &lt;img class=&quot;card-img img-responsive&quot; src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
@@ -205,8 +205,8 @@
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;card-footer&quot;&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic olive&quot;&gt;Button 1&lt;/a&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic btn-olive&quot;&gt;Button 2&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic btn-orange&quot;&gt;Button 2&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -221,9 +221,9 @@
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
                                 <div class="col-4">
-                                    <div class="card border border-olive bg-white-light">
+                                    <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
-                                            <div class="card-header text-center border-bottom border-olive">
+                                            <div class="card-header text-center border-bottom border-orange">
                                                 <h3 class="card-title">Card Title</h3>
                                             </div>
                                             <div class="card-body">
@@ -233,9 +233,9 @@
                                                 </p> 
                                             </div>
                                         </div>
-                                        <div class="card-footer border-top border-olive text-center">
-                                            <a href="#" class="button basic olive">Button 1</a>
-                                            <a href="#" class="button basic btn-olive">Button 2</a>
+                                        <div class="card-footer border-top border-orange text-center">
+                                            <a href="#" class="button basic orange">Button 1</a>
+                                            <a href="#" class="button basic btn-orange">Button 2</a>
                                         </div>
                                     </div>
                                 </div>
@@ -246,7 +246,7 @@
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-4&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt; 
@@ -258,8 +258,8 @@
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;card-footer&quot;&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic olive&quot;&gt;Button 1&lt;/a&gt;
-                &lt;a href=&quot;#&quot; class=&quot;button basic btn-olive&quot;&gt;Button 2&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                &lt;a href=&quot;#&quot; class=&quot;button basic btn-orange&quot;&gt;Button 2&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -274,7 +274,7 @@
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
                                 <div class="col-1">
-                                    <div class="card border border-olive bg-white-light">
+                                    <div class="card border border-orange bg-white-light">
                                         <div class="card-image">
                                             <img class="card-img img-responsive" 
                                             src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
@@ -287,8 +287,8 @@
                                                 </p> 
                                             </div>
                                             <div class="card-action">
-                                                <a href="#" class="button basic olive see-detail">See Detail</a>
-                                                <a href="#" class="button btn-olive more-info">Request More Info</a>
+                                                <a href="#" class="button basic orange">Button 1</a>
+                                                <a href="#" class="button btn-orange">Button 2</a>
                                             </div>
                                         </div>
                                     </div>
@@ -300,7 +300,7 @@
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-1&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-image&quot;&gt;
                 &lt;img class=&quot;card-img img-responsive&quot; 
                 src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
@@ -313,8 +313,8 @@
                     &lt;/p&gt; 
                 &lt;/div&gt;
                 &lt;div class=&quot;card-action&quot;&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;button basic olive see-detail&quot;&gt;See Detail&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;button btn-olive more-info&quot;&gt;Request More Info&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;button btn-orange&quot;&gt;Button 2&lt;/a&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -330,7 +330,7 @@
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
                                 <div class="col-1">
-                                    <div class="card border border-olive bg-white-light">
+                                    <div class="card border border-orange bg-white-light">
                                         <div class="discription small-spacing">
                                             <div class="text-holder">
                                                 <h3 class="card-title">Card Title</h3>
@@ -339,8 +339,8 @@
                                                 </p> 
                                             </div>
                                             <div class="card-action">
-                                                <a href="#" class="button basic olive see-detail">See Detail</a>
-                                                <a href="#" class="button btn-olive more-info">Request More Info</a>
+                                                <a href="#" class="button basic orange">Button 1</a>
+                                                <a href="#" class="button btn-orange">Button 2</a>
                                             </div>
                                         </div>
                                         <div class="card-image">
@@ -356,7 +356,7 @@
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-1&quot;&gt;
-        &lt;div class=&quot;card border border-olive bg-white-light&quot;&gt;
+        &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;discription small-spacing&quot;&gt;
                 &lt;div class=&quot;text-holder&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
@@ -365,13 +365,12 @@
                     &lt;/p&gt; 
                 &lt;/div&gt;
                 &lt;div class=&quot;card-action&quot;&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;button basic olive see-detail&quot;&gt;See Detail&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;button btn-olive more-info&quot;&gt;Request More Info&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;button btn-orange&quot;&gt;Button 2&lt;/a&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;card-image&quot;&gt;
-                &lt;img class=&quot;card-img img-responsive&quot; 
-                src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
+                &lt;img class=&quot;card-img img-responsive&quot; src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;

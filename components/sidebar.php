@@ -33,7 +33,7 @@
             <li class="item-header">Views</li>
             <li><a href="card.php">Card</a></li>
             <li><a href="">Forms</a></li>
-            <li><a href="">Grid</a></li>
+            <li><a href="grid.php">Grid</a></li>
             <li><a href="">Header</a></li>
             <li><a href="">Menu</a></li>
             <li><a href="">Breadcrumb</a></li>

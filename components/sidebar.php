@@ -48,6 +48,7 @@
             <li><a href="">Radio</a></li>
             <li><a href="">Checkbox</a></li>
             <li><a href="">Popup</a></li>
+            <li><a href="">Tooltip</a></li>
             <li><a href="">Search</a></li>
             <li><a href="">Sidebar</a></li>
             <li><a href="">Tabs</a></li>

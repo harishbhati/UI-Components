@@ -60,7 +60,7 @@
                     <p><strong>Code Example:</strong></p>
                     <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
-    &lt;div class=&quot;.parallax-contain parallax-center parallax-smallspace&quot;&gt;
+    &lt;div class=&quot;parallax-contain parallax-center parallax-smallspace&quot;&gt;
         &lt;h2 class=&quot;text-white&quot;&gt;Contain Parallax&lt;/h2&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -68,5 +68,6 @@
                 </section>
             </main>
         </section>
+    <?php include 'script.php'; ?>
     </body>
 </html>

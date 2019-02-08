@@ -277,5 +277,6 @@ class=&quot;text-white-dark&quot;
                     </div>
                 </section>
             </main>
+    <?php include 'script.php'; ?>
     </body>
 </html>

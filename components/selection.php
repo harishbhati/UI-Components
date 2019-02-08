@@ -147,5 +147,6 @@
                     </div>
                 </section>
             </main>
+    <?php include 'script.php'; ?>
     </body>
 </html>

@@ -1,0 +1,27 @@
+@import "../variables/color-variables";
+
+$selection-color-list: (
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'olive': $olive,
+    'green': $green,
+    'teal': $teal,
+    'blue': $blue,
+    'violet': $violet,
+    'purple': $purple,
+    'pink': $pink,
+    'brown': $brown,
+    'grey': $grey,
+    'black': $black,
+    'white': $white,
+);
+
+@each $color-name,$color-code in $selection-color-list {
+    .selection-#{$color-name} {
+        *::selection{
+            background-color:#{$color-code};
+            color: $white;
+        }
+    }
+}

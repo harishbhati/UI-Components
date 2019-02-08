@@ -84,6 +84,20 @@ $item-width-list: (
         width: #{$item-width};
     }
 }
+/*Height*/
+$item-height-list: (
+    'h-auto': 'auto', 
+    'h-25': '25vh', 
+    'h-50': '50vh',
+    'h-75':  '75vh',
+    'h-100':  '100vh'
+);
+
+@each $current-item,$item-height in $item-height-list {
+    .#{$current-item} {
+        height: #{$item-height};
+    }
+}
 
 /*Display*/
 $display-item-list: inline inline-block block;

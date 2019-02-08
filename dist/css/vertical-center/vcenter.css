@@ -1,7 +1,4 @@
-.parent {
-  height: 500px; }
-
-.v-center-position .parent {
+.v-center-position.parent {
   position: relative; }
 
 .v-center-position .children {
@@ -16,7 +13,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.v-center-table .parent {
+.v-center-table.parent {
   display: table;
   width: 100%; }
 
@@ -25,23 +22,15 @@
   display: table-cell;
   vertical-align: middle; }
 
-.v-center-flex .parent {
+.v-center-flex.parent {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.v-center-height .parent {
-  height: 400px;
-  line-height: 400px; }
-
-.v-center-height .children {
-  text-align: center; }
-
-.v-center-inline .parent {
-  height: 100%;
+.v-center-inline.parent {
   width: 100%;
   text-align: center; }
-  .v-center-inline .parent:before {
+  .v-center-inline.parent:before {
     content: " ";
     display: inline-block;
     vertical-align: middle;
@@ -52,3 +41,8 @@
   text-align: center;
   display: inline-block;
   vertical-align: middle; }
+
+.v-center-grid.parent {
+  display: grid;
+  align-items: center;
+  justify-content: center; }

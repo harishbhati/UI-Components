@@ -7,6 +7,12 @@
 .border-bottom {
   border-bottom: 1px solid transparent; }
 
+.border-left {
+  border-left: 1px solid transparent; }
+
+.border-right {
+  border-right: 1px solid transparent; }
+
 /**Border Width**/
 .border-1 {
   border-width: 1px; }
@@ -99,7 +105,7 @@
   border-radius: 5px; }
 
 .border-rounded {
-  border-radius: 50px; }
+  border-radius: 25px; }
 
 .rounded {
   border-radius: 50%; }

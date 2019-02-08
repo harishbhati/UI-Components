@@ -1,4 +1,5 @@
 @import '../mixins/flex-mixin';
+
 /*Flexbox*/
 $flex-display-list: flex inline-flex;
 
@@ -28,6 +29,7 @@ $flex-item-list: (
     'stretch': stretch,
     'top': flex-start,
     'middle': center,
+    'baseline': baseline,
     'bottom': flex-end
     );
 

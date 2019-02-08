@@ -247,6 +247,22 @@ legend {
 .w-100 {
   width: 100%; }
 
+/*Height*/
+.h-auto {
+  height: auto; }
+
+.h-25 {
+  height: 25vh; }
+
+.h-50 {
+  height: 50vh; }
+
+.h-75 {
+  height: 75vh; }
+
+.h-100 {
+  height: 100vh; }
+
 /*Display*/
 .d-inline {
   display: inline; }
@@ -1822,10 +1838,7 @@ input[type="radio"] + label:before {
   -ms-transition: all 1s ease;
   transition: all 1s ease; }
 
-.parent {
-  height: 500px; }
-
-.v-center-position .parent {
+.v-center-position.parent {
   position: relative; }
 
 .v-center-position .children {
@@ -1840,7 +1853,7 @@ input[type="radio"] + label:before {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.v-center-table .parent {
+.v-center-table.parent {
   display: table;
   width: 100%; }
 
@@ -1849,23 +1862,15 @@ input[type="radio"] + label:before {
   display: table-cell;
   vertical-align: middle; }
 
-.v-center-flex .parent {
+.v-center-flex.parent {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.v-center-height .parent {
-  height: 400px;
-  line-height: 400px; }
-
-.v-center-height .children {
-  text-align: center; }
-
-.v-center-inline .parent {
-  height: 100%;
+.v-center-inline.parent {
   width: 100%;
   text-align: center; }
-  .v-center-inline .parent:before {
+  .v-center-inline.parent:before {
     content: " ";
     display: inline-block;
     vertical-align: middle;
@@ -1876,6 +1881,11 @@ input[type="radio"] + label:before {
   text-align: center;
   display: inline-block;
   vertical-align: middle; }
+
+.v-center-grid.parent {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
 
 body {
   margin: 0;

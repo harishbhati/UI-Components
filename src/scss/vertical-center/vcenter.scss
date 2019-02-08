@@ -1,10 +1,7 @@
 @import "../mixins/transform-mixin";
-.parent{
-    height: 500px;
-}
 
 .v-center-position{
-    .parent{
+    &.parent{
         position: relative;
     }
     .children{
@@ -17,7 +14,7 @@
     }
 }
 .v-center-table{
-    .parent{
+    &.parent{
         display: table;
         width: 100%;
     }
@@ -28,24 +25,14 @@
     }
 }
 .v-center-flex{
-    .parent{
+    &.parent{
         display: flex;
         justify-content:center;
         align-items: center;
     }
 }
-.v-center-height{
-    .parent{
-        height: 400px;
-        line-height: 400px;
-    }
-    .children{
-        text-align: center;
-    }
-}
 .v-center-inline{
-    .parent{
-        height:100%;
+    &.parent{
         width:100%;
         text-align: center;
         &:before{
@@ -60,5 +47,12 @@
         text-align: center;
         display: inline-block;
         vertical-align: middle;
+    }
+}
+.v-center-grid{
+    &.parent{
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 }

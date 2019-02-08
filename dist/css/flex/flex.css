@@ -60,6 +60,12 @@
   -ms-align-items: center;
   align-items: center; }
 
+.flex-baseline {
+  -webkit-align-items: baseline;
+  -moz-align-items: baseline;
+  -ms-align-items: baseline;
+  align-items: baseline; }
+
 .flex-bottom {
   -webkit-align-items: flex-end;
   -moz-align-items: flex-end;

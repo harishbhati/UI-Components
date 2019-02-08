@@ -302,6 +302,12 @@ legend {
 .border-bottom {
   border-bottom: 1px solid transparent; }
 
+.border-left {
+  border-left: 1px solid transparent; }
+
+.border-right {
+  border-right: 1px solid transparent; }
+
 /**Border Width**/
 .border-1 {
   border-width: 1px; }
@@ -394,7 +400,7 @@ legend {
   border-radius: 5px; }
 
 .border-rounded {
-  border-radius: 50px; }
+  border-radius: 25px; }
 
 .rounded {
   border-radius: 50%; }
@@ -1230,6 +1236,12 @@ legend {
   -moz-align-items: center;
   -ms-align-items: center;
   align-items: center; }
+
+.flex-baseline {
+  -webkit-align-items: baseline;
+  -moz-align-items: baseline;
+  -ms-align-items: baseline;
+  align-items: baseline; }
 
 .flex-bottom {
   -webkit-align-items: flex-end;

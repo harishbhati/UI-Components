@@ -28,6 +28,7 @@
             <li><a href="">Divider</a></li>
             <li><a href="list.php">Lists</a></li>
             <li><a href="">Images</a></li>
+            <li><a href="selection.php">Selection</a></li>
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header">Views</li>

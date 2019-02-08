@@ -1,0 +1,55 @@
+.selection-red *::selection {
+  background-color: #db2828;
+  color: #ffffff; }
+
+.selection-orange *::selection {
+  background-color: #f2711c;
+  color: #ffffff; }
+
+.selection-yellow *::selection {
+  background-color: #fbbd08;
+  color: #ffffff; }
+
+.selection-olive *::selection {
+  background-color: #b5cc18;
+  color: #ffffff; }
+
+.selection-green *::selection {
+  background-color: #21ba45;
+  color: #ffffff; }
+
+.selection-teal *::selection {
+  background-color: #00b5ad;
+  color: #ffffff; }
+
+.selection-blue *::selection {
+  background-color: #2185d0;
+  color: #ffffff; }
+
+.selection-violet *::selection {
+  background-color: #6435c9;
+  color: #ffffff; }
+
+.selection-purple *::selection {
+  background-color: #a333c8;
+  color: #ffffff; }
+
+.selection-pink *::selection {
+  background-color: #e03997;
+  color: #ffffff; }
+
+.selection-brown *::selection {
+  background-color: #a5673f;
+  color: #ffffff; }
+
+.selection-grey *::selection {
+  background-color: #767676;
+  color: #ffffff; }
+
+.selection-black *::selection {
+  background-color: #1b1c1d;
+  color: #ffffff; }
+
+.selection-white *::selection {
+  background-color: #ffffff;
+  color: #ffffff; }

@@ -1,0 +1,35 @@
+.parallax-fixed {
+  background-image: url("https://www.asum.com.au/wp-content/uploads/2015/02/showeare-parallax.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-scroll {
+  background-image: url("https://www.asum.com.au/wp-content/uploads/2015/02/showeare-parallax.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-contain {
+  background-image: url("https://www.asum.com.au/wp-content/uploads/2015/02/showeare-parallax.jpg");
+  background-attachment: scroll;
+  background-repeat: repeat;
+  background-size: contain; }
+
+.parallax-center {
+  background-position: center; }
+
+.parallax-top {
+  background-position: top left; }
+
+.parallax-bottom {
+  background-position: bottom left; }
+
+.parallax-smallspace {
+  padding: 10% 0; }
+
+.parallax-mediumspace {
+  padding: 15% 0; }
+
+.parallax-largespace {
+  padding: 20% 0; }

@@ -1,0 +1,69 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap; }
+  .gallery .gallery-item {
+    cursor: pointer;
+    flex: 20% 0 0;
+    margin-bottom: .6rem;
+    overflow: hidden; }
+    .gallery .gallery-item .item-wrap img {
+      object-fit: cover;
+      height: 100%; }
+  .gallery .mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+    transition: .5s all ease; }
+    .gallery .mask .title {
+      background: #1b1c1d;
+      padding: 5px; }
+  .gallery.mask-scale .mask {
+    transform: scale(0); }
+  .gallery.mask-scale .gallery-item:hover .mask {
+    transform: scale(1); }
+  .gallery.mask-slidedown .mask {
+    transform: translateY(-100%); }
+  .gallery.mask-slidedown .gallery-item:hover .mask {
+    transform: translateY(0); }
+  .gallery.mask-slideright .mask {
+    transform: translateX(-100%); }
+  .gallery.mask-slideright .gallery-item:hover .mask {
+    transform: translateX(0); }
+  .gallery.mask-opacity .mask {
+    opacity: 0;
+    transition: .8s all ease; }
+  .gallery.mask-opacity .gallery-item:hover .mask {
+    opacity: 1; }
+  .gallery.scale-in .gallery-item {
+    position: relative; }
+    .gallery.scale-in .gallery-item .item-wrap {
+      transform: scale(1);
+      transition: .8s all ease; }
+    .gallery.scale-in .gallery-item:hover .item-wrap {
+      transform: scale(1.1); }
+  .gallery.scale-out .gallery-item {
+    position: relative; }
+    .gallery.scale-out .gallery-item .item-wrap {
+      transform: scale(1);
+      transition: .8s all ease; }
+    .gallery.scale-out .gallery-item:hover .item-wrap {
+      transform: scale(0.9); }
+  .gallery.opacity .gallery-item .item-wrap {
+    transition: .8s all ease; }
+    .gallery.opacity .gallery-item .item-wrap:hover {
+      opacity: .5; }
+  .gallery.flip .gallery-item .item-wrap {
+    transition: .8s all ease; }
+    .gallery.flip .gallery-item .item-wrap:hover {
+      transform: rotateY(180deg); }
+  .gallery.gallery-1-1 .gallery-item .item-wrap {
+    padding-bottom: 100%; }
+  .gallery.gallery-4-3 .gallery-item .item-wrap {
+    padding-bottom: 75%; }
+  .gallery.gallery-16-9 .gallery-item .item-wrap {
+    padding-bottom: 56%; }
+  .gallery.gallery-3-4 .gallery-item .item-wrap {
+    padding-bottom: 133%; }

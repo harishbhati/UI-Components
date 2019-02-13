@@ -1,10 +1,15 @@
 @import "../variables/color-variables";
 
 .nav{
-    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
+    &.horizontal{
+        display: flex;
+        li{
+            margin-left: 20px;
+        }
+    }
     li{
         a{
             display: block;
@@ -22,7 +27,6 @@
     }
     &.background-nav{
         li{
-            margin-left: 10px;
             &:first-child{
                 margin-left: 0;
             }
@@ -34,7 +38,6 @@
     }
     &.border-nav{
         li{
-            margin-left: 20px;
             &:first-child{
                 margin-left: 0;
             }
@@ -66,7 +69,6 @@
     }
     &.borderall-nav{
         li{
-            margin-left: 20px;
             &:first-child{
                 margin-left: 0;
             }

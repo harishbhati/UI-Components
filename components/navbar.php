@@ -41,7 +41,7 @@
                             <p>A navigation bar links have background color on active link.</p>
                             <p><strong>Output:</strong></p>
                             <nav  class="navbar">
-                                <ul class="nav background-nav">
+                                <ul class="nav horizontal background-nav">
                                     <li class="active"><a href="#">Home</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Portfolio</a></li>
@@ -51,7 +51,7 @@
                         </div>
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
-&lt;nav  class=&quot;nav background-nav&quot;&gt;
+&lt;nav  class=&quot;nav horizontal background-nav&quot;&gt;
     &lt;ul class=&quot;nav&quot;&gt;
         &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
@@ -66,7 +66,7 @@
                             <p>A navigation bar links have border bottom on active and hover.</p>
                             <p><strong>Output:</strong></p>
                             <nav  class="navbar">
-                                <ul class="nav border-nav">
+                                <ul class="nav horizontal border-nav">
                                     <li class="active"><a href="#">Home</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Portfolio</a></li>
@@ -76,7 +76,7 @@
                         </div>
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
-&lt;nav  class=&quot;nav border-nav&quot;&gt;
+&lt;nav  class=&quot;nav horizontal border-nav&quot;&gt;
     &lt;ul class=&quot;nav&quot;&gt;
         &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
@@ -91,7 +91,7 @@
                             <p>A navigation bar links have border on active and hover.</p>
                             <p><strong>Output:</strong></p>
                             <nav  class="navbar">
-                                <ul class="nav borderall-nav">
+                                <ul class="nav horizontal borderall-nav">
                                     <li class="active"><a href="#">Home</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Portfolio</a></li>
@@ -101,7 +101,7 @@
                         </div>
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
-&lt;nav  class=&quot;nav borderall-nav&quot;&gt;
+&lt;nav  class=&quot;nav horizontal borderall-nav&quot;&gt;
     &lt;ul class=&quot;nav&quot;&gt;
         &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;

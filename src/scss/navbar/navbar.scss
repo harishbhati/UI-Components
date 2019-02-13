@@ -1,0 +1,83 @@
+@import "../variables/color-variables";
+
+.nav{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li{
+        a{
+            display: block;
+            padding: 10px 15px;
+            font-size: inherit;
+            color: inherit;
+            font-weight: inherit;
+            &:hover{
+                color: $orange; 
+            }
+        }
+        &.active a{
+            color: $orange;
+        }
+    }
+    &.background-nav{
+        li{
+            margin-left: 10px;
+            &:first-child{
+                margin-left: 0;
+            }
+            &.active a{
+                background: $black;
+                color: $white;
+            }
+        }
+    }
+    &.border-nav{
+        li{
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 0;
+            }
+            a{
+                position: relative;
+                padding: 10px 0;
+                &:before{
+                    content:'';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background: $orange;
+                    transition: 0.5s all ease;
+                }
+                &:hover{
+                    &:before{
+                        width:100%;
+                    }
+                }
+            }
+            &.active a{
+                &:before{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &.borderall-nav{
+        li{
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 0;
+            }
+            a{
+                position: relative;
+                padding: 10px;
+                border:1px solid transparent;
+            }
+            &.active a{
+               border-color: $orange; 
+            }
+        }
+    }
+}

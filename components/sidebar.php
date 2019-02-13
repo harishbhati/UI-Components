@@ -39,7 +39,7 @@
             <li><a href="flex.php">Flex</a></li>
             <li><a href="grid.php">Grid</a></li>
             <li><a href="">Header</a></li>
-            <li><a href="">Menu</a></li>
+            <li><a href="navbar.php">Navbar</a></li>
             <li><a href="">Breadcrumb</a></li>
         </ul>
         <ul class="unstyled-list item">

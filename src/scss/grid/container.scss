@@ -25,7 +25,6 @@ $column: 12;
     margin-bottom: 1%;
 }
 .container-fluid{
-    width: 100%;
     @include create-container();
 }
 .container-fixed{

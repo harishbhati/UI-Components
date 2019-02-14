@@ -4,7 +4,7 @@
     <body>
         <!-- header ends -->
         <?php include 'header.php'; ?>
-        <section class="fullscreen-hero-banner flex flex-center flex-middle">
+        <section class="mild h-100 text-center fullscreen-hero-banner flex flex-center flex-middle">
             <div class="banner-content">
                 <span class="rounded heading-circle bg-white flex flex-middle flex-center big-btn">WUI</span>
                 <h2>WebUIKit</h2>

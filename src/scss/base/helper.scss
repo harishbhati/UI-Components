@@ -61,7 +61,8 @@ $font-class-list: (
     'm-tiny': '.7rem', 
     'm-small': '1rem', 
     'm-medium': '1.3rem',
-    'm-large':  '1.6rem'
+    'm-large':  '1.6rem',
+    'm-0':      '0'
 );
 
 @each $current-name,$current-spacing in $font-class-list {

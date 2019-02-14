@@ -1,0 +1,6 @@
+.header .header-inner-holder {
+  display: flex;
+  justify-content: space-between; }
+
+.header .logo {
+  align-self: center; }

@@ -1,3 +1,5 @@
+@import "../mixins/gradient-mixin";
+/*Color Variable*/
 $transparent : transparent;
 $red : #db2828;
 $red-dark: darken($red, 15%);
@@ -42,8 +44,90 @@ $white : #ffffff;
 $white-dark : darken($white, 10%);
 $white-light : darken($white, 5%); 
 
+/*Gradient Variables*/
+$mild-start: #67b26f;
+$mild-end: #4ca2cd;
+.mild{
+    @include linear-gradient-b(to left, $mild-start, $mild-end);
+}
 
+$nepal-start: #de6161;
+$nepal-end: #2657eb;
+.nepal{
+    @include linear-gradient-b(to left, $nepal-start, $nepal-end);
+}
 
+$ofgrey-start: #bdc3c7;
+$ofgrey-end: #2c3e50;
+.ofgrey{
+    @include linear-gradient-b(to left, $ofgrey-start, $ofgrey-end);
+}
 
+$firewatch-start: #cb2d3e;
+$firewatch-end: #ef473a;
+.firewatch{
+    @include linear-gradient-b(to left, $firewatch-start, $firewatch-end);
+}
 
+$grapefruitsunset-start: #e96443;
+$grapefruitsunset-end: #904e95;
+.grapefruitsunset{
+    @include linear-gradient-b(to left, $grapefruitsunset-start, $grapefruitsunset-end);
+}
 
+$sweetmorning-start: #ff5f6d;
+$sweetmorning-end: #ffc371;
+.sweetmorning{
+    @include linear-gradient-b(to left, $sweetmorning-start, $sweetmorning-end);
+}
+
+$purplewhite-start: #ba5370;
+$purplewhite-end: #f4e2d8;
+.purplewhite{
+    @include linear-gradient-b(to left, $purplewhite-start, $purplewhite-end);
+}
+
+$decent-start: #4ca1af;
+$decent-end: #c4e0e5;
+.decent{
+    @include linear-gradient-b(to left, $decent-start, $decent-end);
+}
+
+$deepspace-start: #000000;
+$deepspace-end: #434343;
+.deepspace{
+    @include linear-gradient-b(to left, $deepspace-start, $deepspace-end);
+}
+
+$forest-start: #5a3f37;
+$forest-end: #2c7744;
+.forest{
+    @include linear-gradient-b(to left, $forest-start, $forest-end);
+}
+
+$haikus-start: #fd746c;
+$haikus-end: #ff9068;
+.haikus{
+    @include linear-gradient-b(to left, $haikus-start, $haikus-end);
+}
+$redtoyelloe-start: #c02425;
+$redtoyelloe-end: #f0cb35;
+.redtoyelloe{
+    @include linear-gradient-b(to left, $redtoyelloe-start, $redtoyelloe-end);
+}
+
+$lightorange-start: #ffb75e;
+$lightorange-end: #ed8f03;
+.lightorange{
+    @include linear-gradient-b(to left, $lightorange-start, $lightorange-end);
+}
+$greytoolive-start: #ccccb2;
+$greytoolive-end: #757519;
+.greytoolive{
+    @include linear-gradient-b(to left, $greytoolive-start, $greytoolive-end);
+}
+$metallictoad-start: #abbaab;
+$metallictoad-end: #ffffff;
+.metallictoad{
+    @include linear-gradient-b(to left, $metallictoad-start, $metallictoad-end);
+}

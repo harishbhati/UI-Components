@@ -85,6 +85,9 @@
 .border-transparent {
   border-color: transparent; }
 
+.box-shadow {
+  box-shadow: 1px 0 10px 0 rgba(69, 81, 97, 0.15); }
+
 /**Border Radius**/
 .radius-0 {
   border-radius: 0px; }

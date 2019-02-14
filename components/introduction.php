@@ -79,6 +79,7 @@
                 </section>
             </main>
         </section>
-    <?php include 'script.php'; ?>
+        <?php include 'footer.php'; ?>
+        <?php include 'script.php'; ?>
     </body>
 </html>

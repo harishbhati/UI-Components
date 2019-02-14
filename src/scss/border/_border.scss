@@ -56,3 +56,6 @@ $border-color-list: (
         border-color: #{$color-code};
     }
 }
+.box-shadow{
+    box-shadow: 1px 0 10px 0 rgba(69, 81, 97, 0.15);
+}

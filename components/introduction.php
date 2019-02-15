@@ -22,39 +22,6 @@
                      <p>After adding mini.css to your project, remember to also add the following line inside your HTML page's <head> tag to utilize the viewport meta tag:</p>
                      <pre class="markup">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</pre>
                 </section>
-                <section class="bg-white-light medium-spacing">
-                    <div class="grid-row">
-                        <div class="col-4">
-                            <div class="bg-violet text-white text-center large-spacing">
-                                <i class="huge-2x fas fa-bezier-curve"></i>
-                                <h3>Open Source</h3>
-                                <p>Free to use. Free to modify.</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="bg-purple text-white text-center large-spacing">
-                                <i class="huge-2x fas fa-laptop-code"></i>
-                                <h3>Modular SCSS </h3>
-                                <p>Start with the essential building blocks</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="bg-teal text-white text-center large-spacing">
-                                <i class="huge-2x far fa-file-archive"></i>
-                                <h3>Small Filesize</h3>
-                                <p>Less than 8kb when gzipped</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-4">
-                            <div class="bg-blue text-white text-center large-spacing">
-                                <i class="huge-2x fab fa-dropbox"></i>
-                                <h3>Contributed</h3>
-                                <p>Sourced from the ideas of many.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section class="large-spacing">
                     <h3>Structure</h3>
                     <p>Web UIKit includes a directory structure that separates the CSS framework into modules which are included from a global file. 

@@ -39,6 +39,20 @@ $flex-item-list: (
     }
 }
 
+/*Flexbox Vertical Alignment Self*/
+$flex-item-list: (
+    'top': flex-start,
+    'middle': center,
+    'baseline': baseline,
+    'bottom': flex-end
+    );
+
+@each $align-name,$align in $flex-item-list{
+    .flex-#{$align-name}{
+        @include align-self($align);
+    }
+}
+
 /*Flexbox Row Breaking*/
 $flex-wrap-list: wrap wrap-reverse nowrap;
 

@@ -2,8 +2,7 @@
         <ul class="unstyled-list item">
             <li class="item-header">Getting started</li>
             <li><a href="introduction.php">Introduction</a></li>
-            <li><a href="">Installation</a></li>
-            <li><a href="">Sass</a></li>
+            <li><a href="installation.php">Installation</a></li>
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header">Usage</li>

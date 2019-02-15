@@ -20,7 +20,7 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <ul class="unstyled-list gallery gallery-1-1 scale-in">
-                                    <li class="gallery-item border border-orange border-5">
+                                    <li class="gallery-item border">
                                         <div class="item-wrap v-center-position parent">
                                             <img class="img-responsive children" src="https://i.pinimg.com/originals/91/e6/03/91e603bec15d8c30143dc43ccb86d155.jpg" />
                                         </div>

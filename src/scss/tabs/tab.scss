@@ -1,0 +1,35 @@
+
+.tabset{
+    input {
+        display: none;
+    }
+    input + label:before{
+        content: none;
+    }
+    .tab-content{
+        display: none;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3,
+    #tab4:checked ~ #content4 {
+    display: block;
+    }
+    &.horizontal{
+        input[type="radio"] + label{
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+            border: 1px solid transparent;  
+        }
+        input[type="radio"]:checked + label{
+            border-color:#ccc;
+            border-bottom: 1px solid #fff;
+        }
+    }
+}

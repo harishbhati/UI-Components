@@ -1,21 +1,21 @@
-<aside class="sidebar">
+<aside class="sidebar nicescroll-block">
         <ul class="unstyled-list item">
-            <li class="item-header">Getting started</li>
+            <li class="item-header text-orange">Getting started</li>
             <li><a href="introduction.php">Introduction</a></li>
             <li><a href="installation.php">Installation</a></li>
         </ul>
         <ul class="unstyled-list item">
-            <li class="item-header">Usage</li>
+            <li class="item-header text-orange">Usage</li>
             <li><a href="">Layouts</a></li>
             <li><a href="">Themes</a></li>
         </ul>
         <ul class="unstyled-list item">
-            <li class="item-header">Global CSS</li>
+            <li class="item-header text-orange">Global CSS</li>
             <li><a href="reset.php">Reset</a></li>
             <li><a href="helpers.php">Helpers</a></li>
         </ul>
         <ul class="unstyled-list item">
-            <li class="item-header">Elements</li>
+            <li class="item-header text-orange">Elements</li>
             <li><a href="container.php">Container</a></li>
             <li><a href="background-color.php">Background Color</a></li>
             <li><a href="color.php">Color</a></li>
@@ -32,7 +32,7 @@
             <li><a href="selection.php">Selection</a></li>
         </ul>
         <ul class="unstyled-list item">
-            <li class="item-header">Views</li>
+            <li class="item-header text-orange">Views</li>
             <li><a href="card.php">Card</a></li>
             <li><a href="">Forms</a></li>
             <li><a href="flex.php">Flex</a></li>
@@ -42,7 +42,7 @@
             <li><a href="">Breadcrumb</a></li>
         </ul>
         <ul class="unstyled-list item">
-            <li class="item-header">Modules</li>
+            <li class="item-header text-orange">Modules</li>
             <li><a href="">Accordian</a></li>
             <li><a href="">Dropdown</a></li>
             <li><a href="">Radio</a></li>
@@ -50,7 +50,7 @@
             <li><a href="">Popup</a></li>
             <li><a href="">Tooltip</a></li>
             <li><a href="">Search</a></li>
-            <li><a href="">Sidebar</a></li>
+            <li><a href="sidebar-block.php">Sidebar</a></li>
             <li><a href="tab.php">Tabs</a></li>
             <li><a href="sticky.php">Sticky</a></li>
         </ul>

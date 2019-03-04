@@ -2,10 +2,11 @@
 <script src="../dist/js/jquery.nicescroll.min.js"></script>
 <script>
     $(function() {  
-        $(".sidebar").niceScroll({
+        $(".nicescroll-block").niceScroll({
             cursorcolor:"#f2711c",
             cursorwidth: "8px",
-            background: "#fdf5f0"
+            background: "#fdf5f0",
+            railalign: 'right'
         });
     });
 </script>

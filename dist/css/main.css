@@ -3821,6 +3821,20 @@ input[type="radio"] + label:before {
   border-color: #ccc;
   border-bottom: 1px solid #fff; }
 
+.sticky-top {
+  position: sticky;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9; }
+
+.sticky-bottom {
+  position: sticky;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 9; }
+
 body {
   margin: 0;
   padding: 0;

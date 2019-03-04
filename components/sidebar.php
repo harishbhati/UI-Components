@@ -51,7 +51,7 @@
             <li><a href="">Tooltip</a></li>
             <li><a href="">Search</a></li>
             <li><a href="">Sidebar</a></li>
-            <li><a href="">Tabs</a></li>
+            <li><a href="tab.php">Tabs</a></li>
             <li><a href="">Sticky</a></li>
         </ul>
 </aside>

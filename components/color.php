@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <?php include 'head.php'; ?>
-    <body>
+    <body class="inner-scroll">
         <?php include 'header.php'; ?>
         <section>
+        <section class="sidebar-content-holder sidebar-left">
         <?php include 'sidebar.php'; ?>
-            <main class="content">
+        <main class="content nicescroll-block">
                 <div class="page-title-block">
                     <h1 class="page-title">Text Colors</h1>
                 </div>
@@ -276,7 +277,8 @@ class=&quot;text-white-dark&quot;
                         </pre>
                     </div>
                 </section>
-            </main>
+            </section>
+        </main>
         <?php include 'footer.php'; ?>
         <?php include 'script.php'; ?>
     </body>

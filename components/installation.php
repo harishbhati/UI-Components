@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <?php include 'head.php'; ?>
-    <body>
+    <body class="inner-scroll">
         <?php include 'header.php'; ?>
         <section>
+        <section class="sidebar-content-holder sidebar-left">
             <?php include 'sidebar.php'; ?>
-            <main class="content">
+            <main class="content nicescroll-block">
             <div class="page-title-block">
                 <h1 class="page-title">Installation</h1>
             </div>
@@ -52,7 +53,8 @@
 &lt;/html&gt;
                 </pre>
              </section>
-            </main>
+             </section>
+        </main>
         </section>
         <?php include 'footer.php'; ?>
         <?php include 'script.php'; ?>

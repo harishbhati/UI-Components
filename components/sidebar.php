@@ -52,6 +52,6 @@
             <li><a href="">Search</a></li>
             <li><a href="">Sidebar</a></li>
             <li><a href="tab.php">Tabs</a></li>
-            <li><a href="">Sticky</a></li>
+            <li><a href="sticky.php">Sticky</a></li>
         </ul>
 </aside>

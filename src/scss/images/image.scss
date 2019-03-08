@@ -1,0 +1,22 @@
+.img{
+    &-responsive{
+        display: block;
+        max-width: 100%;
+    }
+    &-left{
+       margin-right: auto; 
+    }
+    &-center{
+        margin-left: auto; 
+        margin-right: auto; 
+     }
+     &-right{
+        margin-left: auto; 
+     }
+     &-border-space{
+        padding: 5px;
+     }
+     &-cicle{
+        border-radius: 50%;
+     }
+}

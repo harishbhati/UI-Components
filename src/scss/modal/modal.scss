@@ -1,0 +1,60 @@
+@import "../variables/color-variables";
+
+.modal{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    padding: 10px;
+    z-index: -1;
+    transition: opacity .15s linear;
+    .btn-close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        background: $grey;
+        color: $white;
+        padding: 7px;
+        line-height: 1;
+    }
+    .modal-holder{
+        position: relative;
+        margin: 0 auto;
+        max-width: 600px;
+        background: $white;
+        transform: scale(.75);
+        transition: .3s linear;
+        transition-property: opacity,transform;
+    }
+    &:target{
+        opacity: 1;
+        z-index: 9;
+        .modal-holder{
+            transform: scale(1);
+        }
+    }
+    .modal-body{
+        padding: 10px;
+        p{
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .modal-header{
+        padding: 10px;
+        border-bottom: 1px solid $grey-light;
+        .modal-title{
+            margin: 0;
+        }
+    }
+    .modal-footer{
+        padding: 10px;
+        border-top: 1px solid $grey-light;
+    }
+}

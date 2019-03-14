@@ -47,7 +47,7 @@
             <li><a href="">Dropdown</a></li>
             <li><a href="">Radio</a></li>
             <li><a href="">Checkbox</a></li>
-            <li><a href="">Popup</a></li>
+            <li><a href="modal.php">Modal</a></li>
             <li><a href="tooltip.php">Tooltip</a></li>
             <li><a href="">Search</a></li>
             <li><a href="sidebar-block.php">Sidebar</a></li>

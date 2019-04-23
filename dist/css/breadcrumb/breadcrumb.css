@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.breadcrumb {
+  width: 100%;
+  padding: 1em 1em;
+  margin: 1em 0;
+  background-color: #edeff0;
+  border-radius: .25em; }
+  .breadcrumb li {
+    position: relative;
+    margin-left: 0; }
+    .breadcrumb li:after {
+      display: inline-block;
+      margin: 0 12px; }
+    .breadcrumb li a {
+      display: inline-block; }
+    .breadcrumb li.current:after {
+      content: none !important; }
+  .breadcrumb.breadcrumb-double-arrow li:after {
+    content: '>>'; }
+  .breadcrumb.breadcrumb-arrow li:after {
+    content: '>'; }
+  .breadcrumb.breadcrumb-slash li:after {
+    content: '/'; }
+  .breadcrumb.breadcrumb-angle-arrow li:after {
+    content: '→'; }

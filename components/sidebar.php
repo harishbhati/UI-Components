@@ -39,7 +39,7 @@
             <li><a href="grid.php">Grid</a></li>
             <li><a href="header-block.php">Header</a></li>
             <li><a href="navbar.php">Navbar</a></li>
-            <li><a href="">Breadcrumb</a></li>
+            <li><a href="breadcrumb.php">Breadcrumb</a></li>
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header text-orange">Modules</li>

@@ -27,6 +27,7 @@
             <li><a href="">Divider</a></li>
             <li><a href="list.php">Lists</a></li>
             <li><a href="image.php">Images</a></li>
+            <li><a href="slider.php">Sliders</a></li>
             <li><a href="image-gallery.php">Image Gallery</a></li>
             <li><a href="parallax.php">Parallax</a></li>
             <li><a href="selection.php">Selection</a></li>

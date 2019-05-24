@@ -22,10 +22,11 @@
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                 </p> 
@@ -51,6 +52,7 @@
                 &lt;/div&gt;
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 
@@ -77,10 +79,11 @@
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                 </p> 
@@ -106,6 +109,7 @@
                 &lt;/div&gt;
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 
@@ -132,10 +136,11 @@
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                 </p> 
@@ -152,10 +157,11 @@
                                             <div class="card-discription">
                                                 <div class="card-header image-holder">
                                                     <img class="card-img img-responsive" 
-                                                    src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                                    src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Card Title</h3>
+                                                    <h4 class="card-sub-title">Card Sub Title</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                     </p> 
@@ -181,6 +187,7 @@
                 &lt;/div&gt;
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 
@@ -200,6 +207,7 @@
                 &lt;/div&gt;
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 
@@ -226,6 +234,7 @@
                                         <div class="card-discription">
                                             <div class="card-header text-center border-bottom border-orange">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                             </div>
                                             <div class="card-body">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -251,6 +260,7 @@
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt; 
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -278,11 +288,12 @@
                                     <div class="card border border-orange bg-white-light">
                                         <div class="card-image">
                                             <img class="card-img img-responsive" 
-                                            src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                            src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                         </div>
                                         <div class="discription small-spacing">
                                             <div class="text-holder">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                 </p> 
@@ -309,6 +320,7 @@
             &lt;div class=&quot;discription small-spacing&quot;&gt;
                 &lt;div class=&quot;text-holder&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 
@@ -335,6 +347,7 @@
                                         <div class="discription small-spacing">
                                             <div class="text-holder">
                                                 <h3 class="card-title">Card Title</h3>
+                                                <h4 class="card-sub-title">Card Sub Title</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                                 </p> 
@@ -346,7 +359,7 @@
                                         </div>
                                         <div class="card-image">
                                             <img class="card-img img-responsive" 
-                                            src="http://mediahomes.in/wp-content/uploads/2017/11/16406407_1145526325546159_5178018251033556532_n.jpg" alt="Amazing Home">
+                                            src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
                                         </div>
                                     </div>
                                 </div>
@@ -361,6 +374,7 @@
             &lt;div class=&quot;discription small-spacing&quot;&gt;
                 &lt;div class=&quot;text-holder&quot;&gt;
                     &lt;h3 class=&quot;card-title&quot;&gt;Card Title&lt;/h3&gt;
+                    &lt;h4 class=&quot;card-sub-title&quot;&gt;Card Sub Title&lt;/h4&gt;
                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     &lt;/p&gt; 

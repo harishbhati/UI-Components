@@ -1,0 +1,50 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .portfolio label {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 3px solid #333;
+    min-width: 120px;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px; }
+  .portfolio input[type="radio"] {
+    display: none; }
+  .portfolio input[type="radio"]:checked + label {
+    background: #333;
+    color: #fff; }
+  .portfolio .tile {
+    display: none;
+    min-width: 200px;
+    width: 19%;
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+    transition: 0.5s all ease-in-out; }
+
+input[type="radio"][id="reset"]:checked ~ .tile {
+  display: flex; }
+
+input[type="radio"][id="reset"] ~ .tile {
+  display: flex; }
+
+input[type="radio"][id="tile1"]:checked ~ .tile2,
+input[type="radio"][id="tile1"]:checked ~ .tile3 {
+  display: none; }
+
+input[type="radio"][id="tile2"]:checked ~ .tile1,
+input[type="radio"][id="tile2"]:checked ~ .tile3 {
+  display: none; }
+
+input[type="radio"][id="tile3"]:checked ~ .tile1,
+input[type="radio"][id="tile3"]:checked ~ .tile2 {
+  display: none; }
+
+input[type="radio"] + label:before {
+  content: none; }

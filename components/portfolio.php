@@ -53,6 +53,36 @@
                     </div>
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
+                        &lt;section class=&quot;portfolio&quot;&gt;
+                            &lt;input type=&quot;radio&quot; id=&quot;reset&quot; name=&quot;color&quot; checked/&gt;
+                            &lt;label for=&quot;reset&quot;&gt;All&lt;/label&gt;
+                            
+                            &lt;input type=&quot;radio&quot; id=&quot;tile1&quot; name=&quot;color&quot; /&gt;
+                            &lt;label for=&quot;tile1&quot;&gt;Web Design&lt;/label&gt;
+                            
+                            &lt;input type=&quot;radio&quot; id=&quot;tile2&quot; name=&quot;color&quot;/&gt;
+                            &lt;label for=&quot;tile2&quot;&gt;Web Development&lt;/label&gt;
+                            
+                            &lt;input type=&quot;radio&quot; id=&quot;tile3&quot; name=&quot;color&quot;/&gt;
+                            &lt;label for=&quot;tile3&quot;&gt;Mobile&lt;/label&gt;
+                            
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile2&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile2&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile2&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile2&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile2&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile3&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile3&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile3&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile3&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile3&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;tile tile1&quot;&gt;&lt;img src=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/section&gt;
                         </pre>
                 </section>
             </main>

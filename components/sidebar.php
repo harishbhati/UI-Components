@@ -31,6 +31,7 @@
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="page-title.php">Page Title</a></li>
             <li><a href="icons.php">Icons</a></li>
+            <li><a href="icon-services.php">Icons Service Variations</a></li>
             <li><a href="image-gallery.php">Image Gallery</a></li>
             <li><a href="parallax.php">Parallax</a></li>
             <li><a href="selection.php">Selection</a></li>

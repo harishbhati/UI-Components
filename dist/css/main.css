@@ -4269,6 +4269,29 @@ input[type="radio"] + label:before {
 .grid-column-5 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
 
+.icon-block {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  position: relative; }
+
+.font-x1 {
+  font-size: 1rem; }
+
+.font-x2 {
+  font-size: 2rem; }
+
+.font-x3 {
+  font-size: 3rem; }
+
+.font-x4 {
+  font-size: 4rem; }
+
+.font-x5 {
+  font-size: 5rem; }
+
 body {
   margin: 0;
   padding: 0;

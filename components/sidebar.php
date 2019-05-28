@@ -7,7 +7,7 @@
         <ul class="unstyled-list item">
             <li class="item-header text-orange">Usage</li>
             <li><a href="">Layouts</a></li>
-            <li><a href="">Themes</a></li>
+            <li><a href="bizpro-theme.php">Themes</a></li>
         </ul>
         <ul class="unstyled-list item">
             <li class="item-header text-orange">Global CSS</li>

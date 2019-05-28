@@ -56,6 +56,20 @@ $font-class-list: (
         padding:#{$current-spacing} ;
     }
 }
+/*Top Bottom Padding*/
+$font-class-list: (
+    'tiny-tb': '1rem', 
+    'small-tb': '3rem', 
+    'medium-tb': '4rem',
+    'large-tb':  '5rem'
+);
+
+@each $current-name,$current-spacing in $font-class-list {
+    .#{$current-name}-spacing {
+        padding-top:#{$current-spacing} ;
+        padding-bottom:#{$current-spacing} ;
+    }
+}
 /*Margin*/
 $font-class-list: (
     'm-tiny': '.7rem', 

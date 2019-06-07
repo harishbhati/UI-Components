@@ -43,8 +43,8 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-2 border border-orange small-spacing text-center">Col 2</div>
-                                    <div class="col-2 border border-orange small-spacing text-center">Col 2</div>
+                                    <div class="col-2 col-sm-1 border border-orange small-spacing text-center">Col 2</div>
+                                    <div class="col-2 col-sm-1 border border-orange small-spacing text-center">Col 2</div>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +52,8 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-2&quot;&gt;Col 2&lt;/div&gt;
-        &lt;div class=&quot;col-2&quot;&gt;Col 2&lt;/div&gt;
+        &lt;div class=&quot;col-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 2&lt;/div&gt;
+        &lt;div class=&quot;col-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 2&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -65,9 +65,9 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-3 border border-orange small-spacing text-center">Col 3</div>
-                                    <div class="col-3 border border-orange small-spacing text-center">Col 3</div>
-                                    <div class="col-3 border border-orange small-spacing text-center">Col 3</div>
+                                    <div class="col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 3</div>
+                                    <div class="col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 3</div>
+                                    <div class="col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 3</div>
                                 </div>
                             </div>
                         </div>
@@ -75,9 +75,9 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-3&quot;&gt;Col 3&lt;/div&gt;
-        &lt;div class=&quot;col-3&quot;&gt;Col 3&lt;/div&gt;
-        &lt;div class=&quot;col-3&quot;&gt;Col 3&lt;/div&gt;
+        &lt;div class=&quot;col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 3&lt;/div&gt;
+        &lt;div class=&quot;col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 3&lt;/div&gt;
+        &lt;div class=&quot;col-3 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 3&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -89,10 +89,10 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-4 border border-orange small-spacing text-center">Col 4</div>
-                                    <div class="col-4 border border-orange small-spacing text-center">Col 4</div>
-                                    <div class="col-4 border border-orange small-spacing text-center">Col 4</div>
-                                    <div class="col-4 border border-orange small-spacing text-center">Col 4</div>
+                                    <div class="col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 4</div>
+                                    <div class="col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 4</div>
+                                    <div class="col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 4</div>
+                                    <div class="col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 4</div>
                                 </div>
                             </div>
                         </div>
@@ -100,10 +100,10 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-4&quot;&gt;Col 4&lt;/div&gt;
-        &lt;div class=&quot;col-4&quot;&gt;Col 4&lt;/div&gt;
-        &lt;div class=&quot;col-4&quot;&gt;Col 4&lt;/div&gt;
-        &lt;div class=&quot;col-4&quot;&gt;Col 4&lt;/div&gt;
+        &lt;div class=&quot;col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 4&lt;/div&gt;
+        &lt;div class=&quot;col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 4&lt;/div&gt;
+        &lt;div class=&quot;col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 4&lt;/div&gt;
+        &lt;div class=&quot;col-4 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 4&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -115,11 +115,11 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-5 border border-orange small-spacing text-center">Col 5</div>
-                                    <div class="col-5 border border-orange small-spacing text-center">Col 5</div>
-                                    <div class="col-5 border border-orange small-spacing text-center">Col 5</div>
-                                    <div class="col-5 border border-orange small-spacing text-center">Col 5</div>
-                                    <div class="col-5 border border-orange small-spacing text-center">Col 5</div>
+                                    <div class="col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 5</div>
+                                    <div class="col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 5</div>
+                                    <div class="col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 5</div>
+                                    <div class="col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 5</div>
+                                    <div class="col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 5</div>
                                 </div>
                             </div>
                         </div>
@@ -127,11 +127,11 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-5&quot;&gt;Col 5&lt;/div&gt;
-        &lt;div class=&quot;col-5&quot;&gt;Col 5&lt;/div&gt;
-        &lt;div class=&quot;col-5&quot;&gt;Col 5&lt;/div&gt;
-        &lt;div class=&quot;col-5&quot;&gt;Col 5&lt;/div&gt;
-        &lt;div class=&quot;col-5&quot;&gt;Col 5&lt;/div&gt;
+        &lt;div class=&quot;col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 5&lt;/div&gt;
+        &lt;div class=&quot;col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 5&lt;/div&gt;
+        &lt;div class=&quot;col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 5&lt;/div&gt;
+        &lt;div class=&quot;col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 5&lt;/div&gt;
+        &lt;div class=&quot;col-5 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 5&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -143,12 +143,12 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
-                                    <div class="col-6 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
+                                    <div class="col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 6</div>
                                 </div>
                             </div>
                         </div>
@@ -156,11 +156,12 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Col 6&lt;/div&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Col 6&lt;/div&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Col 6&lt;/div&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Col 6&lt;/div&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
+        &lt;div class=&quot;col-6 col-md-2 col-sm-1 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 6&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -171,13 +172,13 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
-                                    <div class="col-7 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
+                                    <div class="col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center">Col 7</div>
                                 </div>
                             </div>
                         </div>
@@ -185,12 +186,13 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
-        &lt;div class=&quot;col-7&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
+        &lt;div class=&quot;col-7 col-md-2 col-sm-1 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 7&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -201,14 +203,14 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
-                                    <div class="col-8 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
+                                    <div class="col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 8</div>
                                 </div>
                             </div>
                         </div>
@@ -216,13 +218,14 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
-        &lt;div class=&quot;col-8&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
+        &lt;div class=&quot;col-8 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 8&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -233,15 +236,15 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
-                                    <div class="col-9 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
+                                    <div class="col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 9</div>
                                 </div>
                             </div>
                         </div>
@@ -249,14 +252,15 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
-        &lt;div class=&quot;col-9&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
+        &lt;div class=&quot;col-9 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 9&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -267,16 +271,16 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
-                                    <div class="col-10 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
+                                    <div class="col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 10</div>
                                 </div>
                             </div>
                         </div>
@@ -284,15 +288,16 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
-        &lt;div class=&quot;col-10&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
+        &lt;div class=&quot;col-10 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 10&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -303,17 +308,18 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
+                                    <div class="col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center">Col 12</div>
                                 </div>
                             </div>
                         </div>
@@ -321,16 +327,18 @@
                         <pre class="markup">
 &lt;div class=&quot;container-fluid&quot;&gt;
     &lt;div class=&quot;grid-row&quot;&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
-        &lt;div class=&quot;col-11&quot;&gt;Col 11&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-2 col-sm-1 border border-orange small-spacing text-center&quot;&gt;Col 12&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </pre>
@@ -341,17 +349,17 @@
                             <p><strong>Output:</strong></p>
                             <div class="container-fluid">
                                 <div class="grid-row">
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
-                                    <div class="col-11 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
+                                    <div class="col-11 col-md-2 border border-orange small-spacing text-center">Col 11</div>
                                 </div>
                             </div>
                         </div>

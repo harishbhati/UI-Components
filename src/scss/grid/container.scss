@@ -42,3 +42,21 @@ $column: 12;
         @include create-grid-column();
     }
 }
+/*Grid for Ipad*/
+@media (max-width: 1024px){
+    @for $c from 1 through 12{
+        .col-md-#{$c}{
+            width: (100%/$c);
+            @include create-grid-column();
+        }
+    }
+}
+/*Grid for Mobile*/
+@media (max-width: 767px){
+    @for $c from 1 through 12{
+        .col-sm-#{$c}{
+            width: (100%/$c);
+            @include create-grid-column();
+        }
+    }
+}

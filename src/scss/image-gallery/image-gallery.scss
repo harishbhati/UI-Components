@@ -8,6 +8,12 @@
         flex:20% 0 0;
         margin-bottom: .6rem;
         overflow: hidden;
+        @media (max-width: 1024px){
+            flex:33.33% 0 0;
+        }
+        @media (max-width: 767px){
+            flex:50% 0 0;
+        }
         .item-wrap{
             img{
                 object-fit: cover;

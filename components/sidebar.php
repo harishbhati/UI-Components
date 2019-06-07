@@ -1,4 +1,5 @@
 <aside class="sidebar nicescroll-block">
+        <span class="icon-menu"></span>
         <ul class="unstyled-list item">
             <li class="item-header text-orange">Getting started</li>
             <li><a href="introduction.php">Introduction</a></li>

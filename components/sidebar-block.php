@@ -17,8 +17,11 @@
                                 <p>A Sidebar which is placed left side of page.</p>
                                 <p><strong>Output:</strong></p>
                                 <div class="container-fluid">
-                                    <section class="sidebar-content-holder sidebar-left box-shadow">
+                                    <section class="sidebar-holder sidebar-content-holder sidebar-left box-shadow">
                                         <aside class="sidebar">
+                                            <span class="collapse-menu icon-menu font-x2">
+                                            </span>
+                                            <input type="checkbox" class="menu-checkbox">
                                             <ul class="unstyled-list item">
                                                 <li class="item-header">Getting started</li>
                                                 <li><a href="introduction.php">Introduction</a></li>

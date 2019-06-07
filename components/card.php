@@ -17,12 +17,12 @@
                             <p>A card contains images and text both.Border and background color are transparent.</p>
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
-                                <div class="col-4">
+                                <div class="col-4 col-md-2 col-sm-1">
                                     <div class="card">
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                                src="../images/1.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
@@ -44,7 +44,7 @@
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
-    &lt;div class=&quot;col-4&quot;&gt;
+    &lt;div class=&quot;col-4 col-md-2 col-sm-1&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
@@ -74,12 +74,12 @@
                             <p>A card contains border and background color.</p>
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
-                                <div class="col-4">
+                                <div class="col-4 col-md-2 col-sm-1">
                                     <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                                src="../images/1.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
@@ -101,7 +101,7 @@
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
-    &lt;div class=&quot;col-4&quot;&gt;
+    &lt;div class=&quot;col-4 col-md-2 col-sm-1&quot;&gt;
         &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
@@ -131,12 +131,12 @@
                             <p>A list of card where more than one card.</p>
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
-                                <div class="col-4">
+                                <div class="col-4 col-md-2 col-sm-1">
                                     <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
                                             <div class="card-header image-holder">
                                                 <img class="card-img img-responsive" 
-                                                src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                                src="../images/1.jpg" alt="Amazing Home">
                                             </div>
                                             <div class="card-body">
                                                 <h3 class="card-title">Card Title</h3>
@@ -152,12 +152,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 col-md-2 col-sm-1">
                                         <div class="card border border-orange bg-white-light">
                                             <div class="card-discription">
                                                 <div class="card-header image-holder">
                                                     <img class="card-img img-responsive" 
-                                                    src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                                    src="../images/1.jpg" alt="Amazing Home">
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Card Title</h3>
@@ -179,7 +179,7 @@
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
-    &lt;div class=&quot;col-4&quot;&gt;
+    &lt;div class=&quot;col-4 col-md-2 col-sm-1&quot;&gt;
         &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
@@ -199,7 +199,7 @@
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;col-4&quot;&gt;
+    &lt;div class=&quot;col-4 col-md-2 col-sm-1&quot;&gt;
         &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header image-holder&quot;&gt;
@@ -229,7 +229,7 @@
                             <p>A card contains Only titel and descriptions.</p>
                             <p><strong>Output:</strong></p>
                             <div class="grid-row">
-                                <div class="col-4">
+                                <div class="col-4 col-md-2 col-sm-1">
                                     <div class="card border border-orange bg-white-light">
                                         <div class="card-discription">
                                             <div class="card-header text-center border-bottom border-orange">
@@ -255,7 +255,7 @@
                         <p><strong>Code Example:</strong></p>
                         <pre class="markup">
 &lt;div class=&quot;grid-row&quot;&gt;
-    &lt;div class=&quot;col-4&quot;&gt;
+    &lt;div class=&quot;col-4 col-md-2 col-sm-1&quot;&gt;
         &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
             &lt;div class=&quot;card-discription&quot;&gt;
                 &lt;div class=&quot;card-header&quot;&gt;
@@ -286,9 +286,9 @@
                             <div class="grid-row">
                                 <div class="col-1">
                                     <div class="card border border-orange bg-white-light">
-                                        <div class="card-image">
+                                        <div class="card-image image-left">
                                             <img class="card-img img-responsive" 
-                                            src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                            src="../images/1.jpg" alt="Amazing Home">
                                         </div>
                                         <div class="discription small-spacing">
                                             <div class="text-holder">
@@ -313,9 +313,9 @@
 &lt;div class=&quot;grid-row&quot;&gt;
     &lt;div class=&quot;col-1&quot;&gt;
         &lt;div class=&quot;card border border-orange bg-white-light&quot;&gt;
-            &lt;div class=&quot;card-image&quot;&gt;
+            &lt;div class=&quot;card-image image-left&quot;&gt;
                 &lt;img class=&quot;card-img img-responsive&quot; 
-                src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
+                src=&quot;../images/1.jpg&quot; alt=&quot;Amazing Home&quot;&gt;
             &lt;/div&gt;
             &lt;div class=&quot;discription small-spacing&quot;&gt;
                 &lt;div class=&quot;text-holder&quot;&gt;
@@ -329,7 +329,6 @@
                     &lt;a href=&quot;#&quot; class=&quot;button basic orange&quot;&gt;Button 1&lt;/a&gt;
                     &lt;a href=&quot;#&quot; class=&quot;button btn-orange&quot;&gt;Button 2&lt;/a&gt;
                 &lt;/div&gt;
-            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -357,9 +356,9 @@
                                                 <a href="#" class="button btn-orange">Button 2</a>
                                             </div>
                                         </div>
-                                        <div class="card-image">
+                                        <div class="card-image image-right">
                                             <img class="card-img img-responsive" 
-                                            src="https://www.spotlightmediafargo.com/wp-content/uploads/2018/12/december-2018-headshots-4.jpg" alt="Amazing Home">
+                                            src="../images/1.jpg" alt="Amazing Home">
                                         </div>
                                     </div>
                                 </div>
@@ -384,7 +383,7 @@
                     &lt;a href=&quot;#&quot; class=&quot;button btn-orange&quot;&gt;Button 2&lt;/a&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div class=&quot;card-image&quot;&gt;
+            &lt;div class=&quot;card-image image-right&quot;&gt;
                 &lt;img class=&quot;card-img img-responsive&quot; src=&quot;&quot; alt=&quot;Amazing Home&quot;&gt;
             &lt;/div&gt;
         &lt;/div&gt;

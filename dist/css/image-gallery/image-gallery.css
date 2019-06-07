@@ -7,6 +7,12 @@
     flex: 20% 0 0;
     margin-bottom: .6rem;
     overflow: hidden; }
+    @media (max-width: 1024px) {
+      .gallery .gallery-item {
+        flex: 33.33% 0 0; } }
+    @media (max-width: 767px) {
+      .gallery .gallery-item {
+        flex: 50% 0 0; } }
     .gallery .gallery-item .item-wrap img {
       object-fit: cover;
       height: 100%; }

@@ -117,6 +117,23 @@
 &lt;/div&gt;
                         </pre>
                     </div>
+                    <div class="outputs">
+                            <h3>Banner Image With Center Caption</h3>
+                            <p>The example below shows image With center caption</p>
+                            <p><strong>Output:</strong></p>
+                            <div class="banner-holder">
+                                <img src="http://www.shreejiholidays.com/images/slider/img5.jpg" alt="Banner for Home" class="img-responsive img-center">
+                                <div class="caption">
+                                    <h4>Caption Title</h4>
+                                    <p>It is simply dummy text of the printing and typesetting industry</p>
+                                    <a class="button slider-button" href="#" title="Learn More">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p><strong>Code Example:</strong></p>
+                        <pre class="markup">
+                        </pre>
+                    </div>
                 </section>
             </section>
         </main>

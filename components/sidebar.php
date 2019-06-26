@@ -32,6 +32,7 @@
                 <li><a href="list.php">Lists</a></li>
                 <li><a href="image.php">Images</a></li>
                 <li><a href="slider.php">Sliders</a></li>
+                <li><a href="banner.php">Banner</a></li>
                 <li><a href="portfolio.php">Portfolio</a></li>
                 <li><a href="page-title.php">Page Title</a></li>
                 <li><a href="icons.php">Icons</a></li>

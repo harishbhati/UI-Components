@@ -1,0 +1,80 @@
+@import "../variables/color-variables";
+
+.banner-holder{
+    position: relative;
+    &:before{
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}
+.caption{
+    position: absolute;
+    width:40%;
+    padding: 25px;
+    z-index: 2;
+    background: $whitea;
+    @media screen and (max-width: 1024px){
+        width:80%;
+    }
+    @media screen and (max-width: 479px){
+        width:90%;
+    }
+    *{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .button{
+        margin-bottom: 0;
+    }
+}
+.caption-center{
+    .caption{
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+}
+.caption-left{
+    .caption{
+        top:50%;
+        left:20px;
+        transform: translateY(-50%);
+    }
+}
+.caption-right{
+    .caption{
+        top:50%;
+        right:20px;
+        transform: translateY(-50%);
+    }
+}
+/**Font Color**/
+$color-list: (
+    'red': $reda,
+    'orange': $orangea,
+    'yellow': $yellowa,
+    'olive': $olivea,
+    'green': $greena,
+    'teal': $teala,
+    'blue': $bluea,
+    'violet': $violeta,
+    'purple': $purplea,
+    'pink': $pinka,
+    'brown': $browna,
+    'grey': $greya,
+    'black': $blacka,
+    'white': $whitea
+);
+
+@each $color-name, $color-code in $color-list{
+    .overlay-#{$color-name}{
+        &:before{
+            background-color: #{$color-code};
+        }
+    }
+}

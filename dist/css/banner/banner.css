@@ -1,0 +1,87 @@
+/*Color Variable*/
+.banner-holder {
+  position: relative; }
+  .banner-holder:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+
+.caption {
+  position: absolute;
+  width: 40%;
+  padding: 25px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.3); }
+  @media screen and (max-width: 1024px) {
+    .caption {
+      width: 80%; } }
+  @media screen and (max-width: 479px) {
+    .caption {
+      width: 90%; } }
+  .caption * {
+    margin-top: 0;
+    margin-bottom: 15px; }
+  .caption .button {
+    margin-bottom: 0; }
+
+.caption-center .caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.caption-left .caption {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%); }
+
+.caption-right .caption {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%); }
+
+/**Font Color**/
+.overlay-red:before {
+  background-color: rgba(219, 40, 40, 0.3); }
+
+.overlay-orange:before {
+  background-color: rgba(242, 113, 28, 0.3); }
+
+.overlay-yellow:before {
+  background-color: rgba(251, 189, 8, 0.3); }
+
+.overlay-olive:before {
+  background-color: rgba(181, 204, 24, 0.3); }
+
+.overlay-green:before {
+  background-color: rgba(33, 186, 69, 0.3); }
+
+.overlay-teal:before {
+  background-color: rgba(0, 181, 173, 0.3); }
+
+.overlay-blue:before {
+  background-color: rgba(33, 133, 208, 0.3); }
+
+.overlay-violet:before {
+  background-color: rgba(100, 53, 201, 0.3); }
+
+.overlay-purple:before {
+  background-color: rgba(163, 51, 200, 0.3); }
+
+.overlay-pink:before {
+  background-color: rgba(224, 57, 151, 0.3); }
+
+.overlay-brown:before {
+  background-color: rgba(165, 103, 63, 0.3); }
+
+.overlay-grey:before {
+  background-color: rgba(118, 118, 118, 0.4); }
+
+.overlay-black:before {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.overlay-white:before {
+  background-color: rgba(255, 255, 255, 0.3); }
